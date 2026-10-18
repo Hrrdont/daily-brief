@@ -57,9 +57,39 @@ def safe(fn, fallback, label):
 
 
 # ---------------------------------------------------------------- collectors
+BILI_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                  "(KHTML, like Gecko) Chrome/120.0 Safari/537.36",
+    "Referer": "https://www.bilibili.com/",
+    "Origin": "https://www.bilibili.com",
+    "Accept": "application/json, text/plain, */*",
+    "Accept-Language": "zh-CN,zh;q=0.9",
+}
+
+
 def bilibili_ranking(limit: int = 60) -> list[dict]:
-    data = get_json("https://api.bilibili.com/x/web-interface/ranking/v2?rid=0&type=all")
-    items = (data.get("data") or {}).get("list") or []
+    """B站综合热门。
+
+    ranking/v2 现在经常返回 -352（风控），popular 接口仍然稳定，所以先用
+    popular，失败再退回 ranking/v2。两个都拿不到就返回空，由上游换别的来源。
+    """
+    items: list[dict] = []
+    for url in (
+        "https://api.bilibili.com/x/web-interface/popular?ps=50&pn=1",
+        "https://api.bilibili.com/x/web-interface/ranking/v2?rid=0&type=all",
+    ):
+        try:
+            raw = urllib.request.urlopen(urllib.request.Request(url, headers=BILI_HEADERS), timeout=25).read()
+            data = json.loads(raw)
+            code = data.get("code")
+            got = (data.get("data") or {}).get("list") or []
+            print(f"[info] bilibili {url.split('/x/')[-1][:24]} code={code} items={len(got)}", file=sys.stderr)
+            if code == 0 and got:
+                items = got
+                break
+        except Exception as exc:
+            print(f"[warn] bilibili {url}: {type(exc).__name__} {exc}", file=sys.stderr)
+
     out = []
     for it in items[:limit]:
         out.append({
@@ -68,6 +98,21 @@ def bilibili_ranking(limit: int = 60) -> list[dict]:
             "views": (it.get("stat") or {}).get("view", 0),
             "url": it.get("short_link_v2") or f"https://www.bilibili.com/video/{it.get('bvid','')}",
             "desc": (it.get("desc") or "")[:120],
+        })
+    return out
+
+
+def solidot(limit: int = 4) -> list[dict]:
+    """Solidot：中文科技新闻，作为 B站 抓不到时的热点兜底。"""
+    raw = urllib.request.urlopen(urllib.request.Request(
+        "https://www.solidot.org/index.rss", headers=UA), timeout=25).read()
+    root = ET.fromstring(raw)
+    out = []
+    for item in root.findall(".//item")[:limit]:
+        out.append({
+            "title": (item.findtext("title") or "").strip(),
+            "url": (item.findtext("link") or "").strip(),
+            "summary": re.sub(r"<[^>]+>", "", item.findtext("description") or "")[:140].strip(),
         })
     return out
 
@@ -155,16 +200,27 @@ def weather(city: str) -> dict | None:
 
 
 # ---------------------------------------------------------------- ranking
+def _kw_hit(text: str, kw: str) -> bool:
+    """ASCII keywords need word boundaries: plain substring made "AI" match
+    every "...ai..." in English descriptions (wait, detail, trailer)."""
+    if re.search(r"[A-Za-z]", kw):
+        return re.search(r"(?<![A-Za-z])" + re.escape(kw) + r"(?![A-Za-z])", text, re.I) is not None
+    return kw.lower() in text.lower()
+
+
 def score_bili(item: dict) -> int:
-    text = (item["title"] + " " + item["author"] + " " + item.get("desc", "")).lower()
-    if any(bad.lower() in text for bad in CONFIG["bilibili_exclude"]):
+    """Keyword hits are mandatory; popularity only breaks ties.
+
+    Descriptions are deliberately excluded: they are long, noisy and full of
+    unrelated English words that used to produce false keyword hits.
+    """
+    text = item["title"] + " " + item["author"]
+    if any(bad.lower() in text.lower() for bad in CONFIG["bilibili_exclude"]):
         return -1
-    score = 0
-    for kw, w in CONFIG["bilibili_weights"].items():
-        if kw.lower() in text:
-            score += w
-    score += min(item["views"] // 500000, 8)  # popularity, capped
-    return score
+    kw_score = sum(w for kw, w in CONFIG["bilibili_weights"].items() if _kw_hit(text, kw))
+    if kw_score < 2:
+        return -1
+    return kw_score * 2 + min(item["views"] // 500000, 6)
 
 
 def pick_bili(items: list[dict], n: int = 3) -> list[dict]:
@@ -215,9 +271,14 @@ def llm_digest(payload: dict) -> dict | None:
 # ---------------------------------------------------------------- render
 def plain_digest(ctx: dict) -> dict:
     hot = []
-    for item in ctx["bili"][:2]:
-        hot.append({"title": item["title"], "url": item["url"],
-                    "why": f"{item['author']} · {item['views'] / 10000:.0f} 万播放，命中你在意的技术/知识方向"})
+    if ctx["bili"]:
+        for item in ctx["bili"][:2]:
+            hot.append({"title": item["title"], "url": item["url"],
+                        "why": f"{item['author']} · {item['views'] / 10000:.0f} 万播放，命中你在意的技术/知识方向"})
+    else:
+        for item in ctx.get("solidot", [])[:2]:
+            hot.append({"title": item["title"], "url": item["url"],
+                        "why": "Solidot · 中文科技新闻，今天 B站 热榜抓不到时的替代"})
     for item in ctx["hn"][:2]:
         hot.append({"title": item["title"], "url": item["url"],
                     "why": f"Hacker News {item['score']} 分 · {item['domain']}"})
@@ -286,6 +347,7 @@ def main() -> None:
     ctx = {
         "bili": safe(bilibili_ranking, [], "bilibili"),
         "hn": safe(hacker_news, [], "hackernews"),
+        "solidot": safe(solidot, [], "solidot"),
         "ruanyf": safe(lambda: rss_items(CONFIG["feeds"]["ruanyf"], 2), [], "ruanyf"),
         "sspai": safe(lambda: rss_items(CONFIG["feeds"]["sspai"], 2), [], "sspai"),
         "weather": safe(lambda: weather(city), None, "weather"),
@@ -296,6 +358,7 @@ def main() -> None:
     payload = {
         "bili": [{"title": i["title"], "author": i["author"], "views": i["views"], "url": i["url"]} for i in ctx["bili"]],
         "hn": ctx["hn"],
+        "solidot": ctx["solidot"],
         "ruanyf": ctx["ruanyf"],
         "sspai": ctx["sspai"],
     }
