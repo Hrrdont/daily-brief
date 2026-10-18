@@ -1,0 +1,40 @@
+name: daily brief
+
+on:
+  schedule:
+    # 07:30 Asia/Shanghai == 23:30 UTC (previous day)
+    - cron: "30 23 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  brief:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build the brief
+        env:
+          SERVERCHAN_KEY: ${{ secrets.SERVERCHAN_KEY }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          BRIEF_CITY: ${{ vars.BRIEF_CITY }}
+        run: python fetch_brief.py
+
+      - name: Commit data
+        run: |
+          git config user.name "daily-brief-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data.json history.json
+          if git diff --quiet --cached; then
+            echo "no changes"
+          else
+            git commit -m "brief: $(date -u +%Y-%m-%d)"
+            git push
+          fi
