@@ -1,24 +1,14 @@
 {
   "hot": [
     {
-      "title": "我造了一块会飞的滑板...",
-      "url": "https://b23.tv/BV1KiJk67EQ9",
-      "why": "神奇阿宇Ayu · 606 万播放，命中你在意的技术/知识方向"
-    },
-    {
-      "title": "科学家们用物理智斗爱因斯坦？",
-      "url": "https://b23.tv/BV1fZJ26mEiY",
-      "why": "言吾言_ · 383 万播放，命中你在意的技术/知识方向"
-    },
-    {
       "title": "RepRapMicron",
       "url": "https://github.com/VikOlliver/RepRapMicron/wiki",
-      "why": "Hacker News 28 分 · github.com"
+      "why": "Hacker News 30 分 · github.com"
     },
     {
       "title": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
       "url": "https://api-docs.deepseek.com/guides/search/",
-      "why": "Hacker News 349 分 · api-docs.deepseek.com"
+      "why": "Hacker News 350 分 · api-docs.deepseek.com"
     }
   ],
   "growth": [
@@ -33,9 +23,9 @@
       "why": "少数派：具体可操作的效率/生活议题"
     }
   ],
-  "closing": "今天只看一条的话：我造了一块会飞的滑板...",
+  "closing": "今天只看一条的话：RepRapMicron",
   "date": "2026-10-18",
-  "generated_at": "2026-10-18T22:27:49+08:00",
+  "generated_at": "2026-10-18T22:29:49+08:00",
   "weather": {
     "city": "上海",
     "region": "上海市, 中国",
