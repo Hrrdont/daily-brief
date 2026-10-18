@@ -1,14 +1,24 @@
 {
   "hot": [
     {
+      "title": "不是 AI 特效！这才是《中国功夫》的魅力！",
+      "url": "https://b23.tv/BV1MHJB63Emv",
+      "why": "含亮老师 · 60 万播放，命中你在意的技术/知识方向"
+    },
+    {
+      "title": "动态视频｜下大棋！英伟达的RTX Spark笔记本电脑，靠谱吗？",
+      "url": "https://b23.tv/BV1HhnM62ER1",
+      "why": "影视飓风 · 87 万播放，命中你在意的技术/知识方向"
+    },
+    {
       "title": "RepRapMicron",
       "url": "https://github.com/VikOlliver/RepRapMicron/wiki",
-      "why": "Hacker News 30 分 · github.com"
+      "why": "Hacker News 32 分 · github.com"
     },
     {
       "title": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
       "url": "https://api-docs.deepseek.com/guides/search/",
-      "why": "Hacker News 350 分 · api-docs.deepseek.com"
+      "why": "Hacker News 352 分 · api-docs.deepseek.com"
     }
   ],
   "growth": [
@@ -23,9 +33,9 @@
       "why": "少数派：具体可操作的效率/生活议题"
     }
   ],
-  "closing": "今天只看一条的话：RepRapMicron",
+  "closing": "今天只看一条的话：不是 AI 特效！这才是《中国功夫》的魅力！",
   "date": "2026-10-18",
-  "generated_at": "2026-10-18T22:29:49+08:00",
+  "generated_at": "2026-10-18T22:33:01+08:00",
   "weather": {
     "city": "上海",
     "region": "上海市, 中国",
