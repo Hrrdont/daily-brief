@@ -303,6 +303,15 @@ def llm_digest(payload: dict, avoid: list[str]) -> dict | None:
         }, timeout=90)
         content = json.loads(resp)["choices"][0]["message"]["content"]
         return json.loads(content)
+    except urllib.error.HTTPError as exc:
+        # Print DeepSeek's own message: 401 usually means a bad key, 402 means
+        # "no balance" and they look identical in the exception text.
+        try:
+            detail = exc.read().decode("utf-8", "replace")[:300]
+        except Exception:
+            detail = ""
+        print(f"[warn] llm http {exc.code}: {detail}", file=sys.stderr)
+        return None
     except Exception as exc:
         print(f"[warn] llm: {type(exc).__name__} {exc}", file=sys.stderr)
         return None
