@@ -1,36 +1,36 @@
 {
   "hot": [
     {
-      "title": "星河外卖员：规则诡域 【AI月月抢位赛】",
-      "url": "https://b23.tv/BV19pJY6NEuz",
-      "why": "最后讲述者 · 132 万播放，命中你在意的技术/知识方向"
-    },
-    {
-      "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+      "title": "混合推理智能体：在潜空间思考、用文本行动的 LLM Agent",
       "url": "https://arxiv.org/abs/2610.18861",
-      "why": "Hacker News 238 分 · arxiv.org"
+      "why": "Agent 设计的新范式，把推理搬进潜空间，值得看框架思路"
     },
     {
-      "title": "William Gibson and the trademarking of cyberspace",
-      "url": "https://colo.to/cyberspace.html",
-      "why": "Hacker News 81 分 · colo.to"
+      "title": "Linux 内核开发者提交代码不再需要声明是否用了 AI",
+      "url": "https://www.solidot.org/story?sid=85641",
+      "why": "影响所有内核贡献者的流程变更，开源协作规则在变"
+    },
+    {
+      "title": "基于 6502 CPU 的笔记本电脑",
+      "url": "https://www.maddox.pro/?p=448",
+      "why": "老芯片做整机，硬件折腾党的快乐，看怎么把复古玩成真机"
     }
   ],
   "growth": [
     {
-      "title": "科技爱好者周刊（第 414 期）：Jev 决策模型有什么用",
-      "url": "http://www.ruanyifeng.com/blog/2026/10/weekly-issue-414.html",
-      "why": "阮一峰周刊：偏工程与视野，适合周末慢读"
+      "title": "现在正是学数学的最好时机（3Blue1Brown）",
+      "url": "https://www.youtube.com/watch?v=LKrwhjOI8Nc",
+      "why": "用可视化讲清为什么数学值得投入，不是鸡汤是论证"
     },
     {
-      "title": "派早报：三季度全球手机出货量继续两位数下降",
-      "url": "https://sspai.com/post/116641",
-      "why": "少数派：具体可操作的效率/生活议题"
+      "title": "Jev 决策模型有什么用（科技爱好者周刊 414 期）",
+      "url": "http://www.ruanyifeng.com/blog/2026/10/weekly-issue-414.html",
+      "why": "一个可套用的决策框架，能直接拿来做选择练习"
     }
   ],
-  "closing": "今天只看一条的话：星河外卖员：规则诡域 【AI月月抢位赛】",
+  "closing": "今天挑的是能动手、能验证的东西，其余热闹看看就好。",
   "date": "2026-10-19",
-  "generated_at": "2026-10-19T10:51:38+08:00",
+  "generated_at": "2026-10-19T11:02:11+08:00",
   "weather": {
     "city": "嘉定区",
     "region": "上海市, 中国",
