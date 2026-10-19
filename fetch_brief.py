@@ -278,14 +278,43 @@ def dedupe(items: list[dict], urls: set, titles: set) -> list[dict]:
 
 
 # ---------------------------------------------------------------- optional LLM
+def _extract_json(text: str) -> dict | None:
+    text = (text or "").strip()
+    if text.startswith("```"):
+        text = re.sub(r"^```[a-zA-Z]*\s*", "", text)
+        text = re.sub(r"\s*```$", "", text)
+    try:
+        return json.loads(text)
+    except Exception:
+        m = re.search(r"\{.*\}", text, re.S)
+        if not m:
+            return None
+        try:
+            return json.loads(m.group(0))
+        except Exception:
+            return None
+
+
+def _chat(url: str, key: str, model: str, prompt: str, json_mode: bool, timeout: int = 90) -> dict:
+    body = {
+        "model": model,
+        "messages": [{"role": "user", "content": prompt}],
+        "temperature": 0.6,
+    }
+    if json_mode:
+        body["response_format"] = {"type": "json_object"}
+    data = json.dumps(body).encode()
+    req = urllib.request.Request(
+        url, data=data, method="POST",
+        headers={"Authorization": "Bearer " + key, "Content-Type": "application/json",
+                 "Accept": "application/json", "User-Agent": "daily-brief"},
+    )
+    with urllib.request.urlopen(req, timeout=timeout) as r:
+        payload = json.loads(r.read())
+    return payload
+
+
 def llm_digest(payload: dict, avoid: list[str]) -> dict | None:
-    key = os.environ.get("DEEPSEEK_API_KEY", "").strip()
-    if not key:
-        return None
-    import hashlib
-    # Fingerprint, not the key: length + sha256 prefix, so the local checker and
-    # the Actions log can be compared without exposing the secret.
-    print(f"[info] llm key len={len(key)} fp={hashlib.sha256(key.encode()).hexdigest()[:12]}", file=sys.stderr)
     prompt = (
         "你是我的编辑。下面是今天抓到的候选内容，请挑出真正值得我花时间的东西，写成一份中文早报。\n"
         "我的偏好：技术/AI/编程、物理与数学、开源与硬件折腾、自我成长（要能验证的，不要鸡汤）、"
@@ -298,27 +327,49 @@ def llm_digest(payload: dict, avoid: list[str]) -> dict | None:
         + ("最近已出现过、请避开：\n" + "；".join(avoid) + "\n\n" if avoid else "")
         + json.dumps(payload, ensure_ascii=False)[:12000]
     )
-    try:
-        resp = post_json("https://api.deepseek.com/chat/completions", {
-            "model": "deepseek-chat",
-            "messages": [{"role": "user", "content": prompt}],
-            "temperature": 0.6,
-            "response_format": {"type": "json_object"},
-        }, timeout=90)
-        content = json.loads(resp)["choices"][0]["message"]["content"]
-        return json.loads(content)
-    except urllib.error.HTTPError as exc:
-        # Print DeepSeek's own message: 401 usually means a bad key, 402 means
-        # "no balance" and they look identical in the exception text.
+
+    # 1) DeepSeek 直连。curl 在国内/家庭网络可用，但 GitHub Actions 的机房 IP
+    #    会被它的 governor 网关判为 Authentication Fails（同一把 key 本地 200）。
+    key = os.environ.get("DEEPSEEK_API_KEY", "").strip()
+    if key:
         try:
-            detail = exc.read().decode("utf-8", "replace")[:300]
-        except Exception:
-            detail = ""
-        print(f"[warn] llm http {exc.code}: {detail}", file=sys.stderr)
-        return None
-    except Exception as exc:
-        print(f"[warn] llm: {type(exc).__name__} {exc}", file=sys.stderr)
-        return None
+            res = _chat("https://api.deepseek.com/chat/completions", key, "deepseek-chat", prompt, True)
+            parsed = _extract_json(res["choices"][0]["message"]["content"])
+            if parsed:
+                print("[info] llm: deepseek", file=sys.stderr)
+                return parsed
+            print("[warn] llm: deepseek returned non-JSON", file=sys.stderr)
+        except urllib.error.HTTPError as exc:
+            try:
+                detail = exc.read().decode("utf-8", "replace")[:200]
+            except Exception:
+                detail = ""
+            print(f"[warn] llm deepseek http {exc.code}: {detail}", file=sys.stderr)
+        except Exception as exc:
+            print(f"[warn] llm deepseek: {type(exc).__name__} {exc}", file=sys.stderr)
+
+    # 2) GitHub Models：Actions 自带 GITHUB_TOKEN，公开仓库有免费额度，
+    #    不受机房 IP 影响。这是 DeepSeek 直连失败时的主力兜底。
+    gh = os.environ.get("GITHUB_TOKEN", "").strip() or os.environ.get("GH_TOKEN", "").strip()
+    if gh:
+        for model in (os.environ.get("GH_MODELS_MODEL") or "openai/gpt-4o-mini",
+                      "deepseek/DeepSeek-V3-0324"):
+            try:
+                res = _chat("https://models.github.ai/inference/chat/completions", gh, model, prompt, False)
+                parsed = _extract_json(res["choices"][0]["message"]["content"])
+                if parsed:
+                    print(f"[info] llm: github-models/{model}", file=sys.stderr)
+                    return parsed
+            except urllib.error.HTTPError as exc:
+                try:
+                    detail = exc.read().decode("utf-8", "replace")[:160]
+                except Exception:
+                    detail = ""
+                print(f"[warn] llm {model} http {exc.code}: {detail}", file=sys.stderr)
+            except Exception as exc:
+                print(f"[warn] llm {model}: {type(exc).__name__} {exc}", file=sys.stderr)
+
+    return None
 
 
 # ---------------------------------------------------------------- render
