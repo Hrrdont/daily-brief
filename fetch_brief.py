@@ -241,8 +241,44 @@ def pick_bili(items: list[dict], n: int = 3) -> list[dict]:
     return picked
 
 
+def _norm(title: str) -> str:
+    return re.sub(r"[\s\W_]+", "", (title or "").lower())[:28]
+
+
+def recent_seen(history: list[dict], days: int = 5) -> tuple[set, set]:
+    """URLs and normalized titles already shown in the last N days.
+
+    Without this the same HN post and the same weekly column reappear for days,
+    which is exactly the "和昨天重复" complaint.
+    """
+    urls, titles = set(), set()
+    for brief in history[-days:]:
+        # Today's own entry must not filter today's candidates: a manual re-run
+        # would otherwise find every item "already seen" and come back empty.
+        if brief.get("date") == TODAY:
+            continue
+        for bucket in ("hot", "growth"):
+            for item in brief.get(bucket) or []:
+                if item.get("url"):
+                    urls.add(item["url"].split("?")[0])
+                if item.get("title"):
+                    titles.add(_norm(item["title"]))
+    return urls, titles
+
+
+def dedupe(items: list[dict], urls: set, titles: set) -> list[dict]:
+    out = []
+    for item in items:
+        if item.get("url", "").split("?")[0] in urls:
+            continue
+        if _norm(item.get("title", "")) in titles:
+            continue
+        out.append(item)
+    return out
+
+
 # ---------------------------------------------------------------- optional LLM
-def llm_digest(payload: dict) -> dict | None:
+def llm_digest(payload: dict, avoid: list[str]) -> dict | None:
     key = os.environ.get("DEEPSEEK_API_KEY", "").strip()
     if not key:
         return None
@@ -252,8 +288,10 @@ def llm_digest(payload: dict) -> dict | None:
         "音乐与美学。讨厌：明星八卦、标题党、美妆穿搭、空泛政论、营销号。\n"
         "要求：热点 2-3 条（必须有信息量，不要纯娱乐）；成长 2 条；每条给一句『为什么值得你看』，"
         "要具体、说人话、不超过 40 字。不要编造事实，只能基于给定标题和描述。\n"
+        "**不要选最近几天已经出现过的内容**（见 avoid 列表），宁可少一条也不要重复。\n"
         "只输出 JSON：{\"hot\":[{\"title\":\"\",\"url\":\"\",\"why\":\"\"}],"
         "\"growth\":[{\"title\":\"\",\"url\":\"\",\"why\":\"\"}],\"closing\":\"一句话总结\"}\n\n"
+        + ("最近已出现过、请避开：\n" + "；".join(avoid) + "\n\n" if avoid else "")
         + json.dumps(payload, ensure_ascii=False)[:12000]
     )
     try:
@@ -346,6 +384,17 @@ def push_serverchan(title: str, markdown: str) -> None:
 # ---------------------------------------------------------------- main
 def main() -> None:
     city = os.environ.get("BRIEF_CITY") or CONFIG.get("city", "上海")
+
+    hist_path = ROOT / "history.json"
+    hist = []
+    if hist_path.exists():
+        try:
+            hist = json.loads(hist_path.read_text(encoding="utf-8-sig"))
+        except Exception:
+            hist = []
+    seen_urls, seen_titles = recent_seen(hist, CONFIG.get("dedupe_days", 5))
+    print(f"[info] 近几天已出现：{len(seen_urls)} 个链接 / {len(seen_titles)} 个标题，将跳过", file=sys.stderr)
+
     ctx = {
         "bili": safe(bilibili_ranking, [], "bilibili"),
         "hn": safe(hacker_news, [], "hackernews"),
@@ -355,6 +404,11 @@ def main() -> None:
         "weather": safe(lambda: weather(city), None, "weather"),
         "image": safe(bing_image, None, "bing"),
     }
+    for key in ("bili", "hn", "solidot", "ruanyf", "sspai"):
+        before = len(ctx[key])
+        ctx[key] = dedupe(ctx[key], seen_urls, seen_titles)
+        if before != len(ctx[key]):
+            print(f"[info] {key}: 去掉 {before - len(ctx[key])} 条重复", file=sys.stderr)
     ctx["bili"] = pick_bili(ctx["bili"])
 
     payload = {
@@ -364,7 +418,8 @@ def main() -> None:
         "ruanyf": ctx["ruanyf"],
         "sspai": ctx["sspai"],
     }
-    brief = llm_digest(payload) or plain_digest(ctx)
+    avoid = sorted(seen_titles)[:40]
+    brief = llm_digest(payload, avoid) or plain_digest(ctx)
 
     brief["date"] = TODAY
     brief["generated_at"] = NOW.isoformat(timespec="seconds")
@@ -377,13 +432,6 @@ def main() -> None:
 
     (ROOT / "data.json").write_text(json.dumps(brief, ensure_ascii=False, indent=2), encoding="utf-8")
 
-    hist_path = ROOT / "history.json"
-    hist = []
-    if hist_path.exists():
-        try:
-            hist = json.loads(hist_path.read_text(encoding="utf-8"))
-        except Exception:
-            hist = []
     hist = [h for h in hist if h.get("date") != TODAY]
     hist.append(brief)
     hist = sorted(hist, key=lambda h: h.get("date", ""))[-30:]
