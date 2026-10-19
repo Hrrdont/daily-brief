@@ -9,6 +9,7 @@ on:
 
 permissions:
   contents: write
+  models: read
 
 jobs:
   brief:
@@ -25,6 +26,8 @@ jobs:
         env:
           SERVERCHAN_KEY: ${{ secrets.SERVERCHAN_KEY }}
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_MODELS_MODEL: ${{ vars.GH_MODELS_MODEL }}
           BRIEF_CITY: ${{ vars.BRIEF_CITY }}
         run: python fetch_brief.py
 
