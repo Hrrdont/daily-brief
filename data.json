@@ -1,11 +1,6 @@
 {
   "hot": [
     {
-      "title": "不是 AI 特效！这才是《中国功夫》的魅力！",
-      "url": "https://b23.tv/BV1MHJB63Emv",
-      "why": "含亮老师 · 116 万播放，命中你在意的技术/知识方向"
-    },
-    {
       "title": "星河外卖员：规则诡域 【AI月月抢位赛】",
       "url": "https://b23.tv/BV19pJY6NEuz",
       "why": "最后讲述者 · 132 万播放，命中你在意的技术/知识方向"
@@ -13,18 +8,18 @@
     {
       "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
       "url": "https://arxiv.org/abs/2610.18861",
-      "why": "Hacker News 237 分 · arxiv.org"
+      "why": "Hacker News 238 分 · arxiv.org"
     },
     {
       "title": "William Gibson and the trademarking of cyberspace",
       "url": "https://colo.to/cyberspace.html",
-      "why": "Hacker News 78 分 · colo.to"
+      "why": "Hacker News 81 分 · colo.to"
     }
   ],
   "growth": [
     {
-      "title": "科技爱好者周刊（第 415 期）：3D 版《看不见的城市》",
-      "url": "http://www.ruanyifeng.com/blog/2026/10/weekly-issue-415.html",
+      "title": "科技爱好者周刊（第 414 期）：Jev 决策模型有什么用",
+      "url": "http://www.ruanyifeng.com/blog/2026/10/weekly-issue-414.html",
       "why": "阮一峰周刊：偏工程与视野，适合周末慢读"
     },
     {
@@ -33,9 +28,9 @@
       "why": "少数派：具体可操作的效率/生活议题"
     }
   ],
-  "closing": "今天只看一条的话：不是 AI 特效！这才是《中国功夫》的魅力！",
+  "closing": "今天只看一条的话：星河外卖员：规则诡域 【AI月月抢位赛】",
   "date": "2026-10-19",
-  "generated_at": "2026-10-19T10:46:39+08:00",
+  "generated_at": "2026-10-19T10:51:38+08:00",
   "weather": {
     "city": "嘉定区",
     "region": "上海市, 中国",
