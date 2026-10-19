@@ -282,6 +282,10 @@ def llm_digest(payload: dict, avoid: list[str]) -> dict | None:
     key = os.environ.get("DEEPSEEK_API_KEY", "").strip()
     if not key:
         return None
+    import hashlib
+    # Fingerprint, not the key: length + sha256 prefix, so the local checker and
+    # the Actions log can be compared without exposing the secret.
+    print(f"[info] llm key len={len(key)} fp={hashlib.sha256(key.encode()).hexdigest()[:12]}", file=sys.stderr)
     prompt = (
         "你是我的编辑。下面是今天抓到的候选内容，请挑出真正值得我花时间的东西，写成一份中文早报。\n"
         "我的偏好：技术/AI/编程、物理与数学、开源与硬件折腾、自我成长（要能验证的，不要鸡汤）、"
