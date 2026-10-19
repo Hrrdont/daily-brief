@@ -23,7 +23,9 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-CONFIG = json.loads((ROOT / "config.json").read_text(encoding="utf-8"))
+# utf-8-sig: a BOM sneaks in whenever the file is saved by an editor or by
+# PowerShell's Set-Content, and json.loads chokes on it.
+CONFIG = json.loads((ROOT / "config.json").read_text(encoding="utf-8-sig"))
 TZ = timezone(timedelta(hours=8))
 NOW = datetime.now(TZ)
 TODAY = NOW.strftime("%Y-%m-%d")
