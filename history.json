@@ -142,5 +142,53 @@
       "url": "https://www.bing.com/th?id=OHR.BrownSloth_ZH-CN5776383136_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "page": "https://www.bing.com"
     }
+  },
+  {
+    "hot": [
+      {
+        "title": "DeepInfer：DeepSeek 模型的高性能推理框架",
+        "url": "https://github.com/deepseek-ai/DeepInfer",
+        "why": "官方开源推理框架，想自己跑 DeepSeek 模型的人能直接省下不少调优功夫。"
+      },
+      {
+        "title": "Voxtral 3",
+        "url": "https://mistral.ai/news/voxtral-3/",
+        "why": "Mistral 新一代语音模型，关注开源语音识别和 TTS 的人值得看一眼。"
+      },
+      {
+        "title": "SimCity，但要先申请许可",
+        "url": "https://permit.petercai.com/",
+        "why": "把城市规划做成审批流程的网页小游戏，程序员脑洞和交互设计都值得玩。"
+      }
+    ],
+    "growth": [
+      {
+        "title": "具透 Plus：Firefox 被「中途喝止」的界面现代化改造",
+        "url": "https://sspai.com/prime/story/inside-release-notes-261020",
+        "why": "看一个产品改版为何被叫停，比读十篇『设计原则』更能理解真实决策。"
+      },
+      {
+        "title": "Feds suspect ransom negotiator ran ShinyHunters extortion site",
+        "url": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
+        "why": "勒索谈判专家疑似就是勒索团伙，提醒你『中间人』这个角色有多容易变质。"
+      }
+    ],
+    "closing": "今天值得看的是官方推理框架和语音模型的新进展，外加一个关于信任与角色的真实案例。",
+    "date": "2026-10-21",
+    "generated_at": "2026-10-21T08:49:07+08:00",
+    "weather": {
+      "city": "嘉定区",
+      "region": "上海市, 中国",
+      "desc": "阵雨",
+      "tmax": 21,
+      "tmin": 14,
+      "rain": 100
+    },
+    "image": {
+      "title": "飞掠河面",
+      "copyright": "香江上的阮潢桥，顺化，越南 (© VU PHAM VAN/Getty Images)",
+      "url": "https://www.bing.com/th?id=OHR.VietnamBridge_ZH-CN6134321119_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "page": "https://www.bing.com"
+    }
   }
 ]
