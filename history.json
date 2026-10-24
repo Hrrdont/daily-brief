@@ -286,5 +286,53 @@
       "url": "https://www.bing.com/th?id=OHR.YellowstoneWolves_ZH-CN6767268961_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "page": "https://www.bing.com"
     }
+  },
+  {
+    "hot": [
+      {
+        "title": "Kimi K3.1 Pro 与 K3.1 Pro Highspeed 发布",
+        "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+        "why": "国产大模型新版本，看它和 DeepSeek 路线有何不同"
+      },
+      {
+        "title": "http2shell：影响 Node、Python 等的 RCE 漏洞",
+        "url": "https://nitter.click/AikidoSecurity/status/2113759110625906950?__galadriel=lPmlGl9id4oAd5UeBwMhlYKArHyr6lR2IDGujPwB5HV2kQ1aLoPWFd5A9sGuzNcmrp8fUso8qygmHcKTDZ8MNHWqQ3bDJcycV87xp_0VypzQLYj6O_RRHlZuQqj33oASGY2YLSoAiMjeOZN40h7Stf8AG7DPrGZbAPVKUXy36HoMudRbvwF3_r2uYNmfJMhpKzywQDM6Ab8",
+        "why": "HTTP/2 实现层 RCE，写服务端的人该立刻查依赖"
+      },
+      {
+        "title": "我们攻破了 iPhone：一次完整的越狱记录",
+        "url": "https://blog.calif.io/p/iphone",
+        "why": "真实攻击链复盘，比漏洞新闻更能学到系统安全思路"
+      }
+    ],
+    "growth": [
+      {
+        "title": "科技爱好者周刊（第 415 期）：3D 版《看不见的城市》",
+        "url": "http://www.ruanyifeng.com/blog/2026/10/weekly-issue-415.html",
+        "why": "用 3D 重建卡尔维诺的想象城市，是审美与工程结合的样本"
+      },
+      {
+        "title": "TDS REVIEW｜OPPO Enco X4 降噪真无线耳机体验",
+        "url": "https://sspai.com/post/116398",
+        "why": "千元档降噪横评有具体结论，挑耳机时能少踩坑"
+      }
+    ],
+    "closing": "今天值得看的是模型迭代、一个真实可利用的 RCE，以及一次把想象力做成 3D 的尝试。",
+    "date": "2026-10-24",
+    "generated_at": "2026-10-24T08:58:56+08:00",
+    "weather": {
+      "city": "嘉定区",
+      "region": "上海市, 中国",
+      "desc": "强阵雨",
+      "tmax": 20,
+      "tmin": 18,
+      "rain": 100
+    },
+    "image": {
+      "title": "书香里的极致华美",
+      "copyright": "皇家葡萄牙语阅览室，里约热内卢，巴西 (© Antonio Salaverry/Shutterstock)",
+      "url": "https://www.bing.com/th?id=OHR.PortugueseLibrary_ZH-CN7096893027_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "page": "https://www.bing.com"
+    }
   }
 ]
