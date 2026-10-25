@@ -1,48 +1,48 @@
 {
   "hot": [
     {
-      "title": "Kimi K3.1 Pro 与 K3.1 Pro Highspeed 发布",
-      "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
-      "why": "国产大模型新版本，看它和 DeepSeek 路线有何不同"
+      "title": "Roku 把开发者仓库从 GitHub 迁到 GitLab",
+      "url": "https://blog.roku.com/developer/gitlab-move",
+      "why": "大厂公开迁代码托管平台，想了解 GitHub 替代方案的真实动因看这篇"
     },
     {
-      "title": "http2shell：影响 Node、Python 等的 RCE 漏洞",
-      "url": "https://nitter.click/AikidoSecurity/status/2113759110625906950?__galadriel=lPmlGl9id4oAd5UeBwMhlYKArHyr6lR2IDGujPwB5HV2kQ1aLoPWFd5A9sGuzNcmrp8fUso8qygmHcKTDZ8MNHWqQ3bDJcycV87xp_0VypzQLYj6O_RRHlZuQqj33oASGY2YLSoAiMjeOZN40h7Stf8AG7DPrGZbAPVKUXy36HoMudRbvwF3_r2uYNmfJMhpKzywQDM6Ab8",
-      "why": "HTTP/2 实现层 RCE，写服务端的人该立刻查依赖"
+      "title": "The Goose Programming Language",
+      "url": "https://aardappel.github.io/goose/",
+      "why": "新语言设计文档，适合想偷师语法与内存模型取舍的编程爱好者"
     },
     {
-      "title": "我们攻破了 iPhone：一次完整的越狱记录",
-      "url": "https://blog.calif.io/p/iphone",
-      "why": "真实攻击链复盘，比漏洞新闻更能学到系统安全思路"
+      "title": "我们该把软件做得更有野心",
+      "url": "https://danluu.com/ambitious/",
+      "why": "Dan Luu 谈为何工具越强软件反而越保守，读完能校准自己的项目尺度"
     }
   ],
   "growth": [
     {
-      "title": "科技爱好者周刊（第 415 期）：3D 版《看不见的城市》",
-      "url": "http://www.ruanyifeng.com/blog/2026/10/weekly-issue-415.html",
-      "why": "用 3D 重建卡尔维诺的想象城市，是审美与工程结合的样本"
+      "title": "在硅谷，遇见个人计算机历史",
+      "url": "https://sspai.com/post/116128",
+      "why": "把博物馆展品和书里故事对上号，是能照着走的动手学习路线"
     },
     {
-      "title": "TDS REVIEW｜OPPO Enco X4 降噪真无线耳机体验",
-      "url": "https://sspai.com/post/116398",
-      "why": "千元档降噪横评有具体结论，挑耳机时能少踩坑"
+      "title": "Show HN: Steal My Bitcoin",
+      "url": "https://stealmybitcoin.com/",
+      "why": "公开设挑战让人攻破取币，是检验自己安全功底的实战靶场"
     }
   ],
-  "closing": "今天值得看的是模型迭代、一个真实可利用的 RCE，以及一次把想象力做成 3D 的尝试。",
-  "date": "2026-10-24",
-  "generated_at": "2026-10-24T08:58:56+08:00",
+  "closing": "今天挑的是能上手验证的工程与安全内容，少看观点多看实现。",
+  "date": "2026-10-25",
+  "generated_at": "2026-10-25T08:28:52+08:00",
   "weather": {
     "city": "嘉定区",
     "region": "上海市, 中国",
-    "desc": "强阵雨",
-    "tmax": 20,
-    "tmin": 18,
-    "rain": 100
+    "desc": "小毛毛雨",
+    "tmax": 24,
+    "tmin": 17,
+    "rain": 41
   },
   "image": {
-    "title": "书香里的极致华美",
-    "copyright": "皇家葡萄牙语阅览室，里约热内卢，巴西 (© Antonio Salaverry/Shutterstock)",
-    "url": "https://www.bing.com/th?id=OHR.PortugueseLibrary_ZH-CN7096893027_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "title": "群峰与宁静相遇之地",
+    "copyright": "玛琳湖，贾斯珀国家公园，艾伯塔省，加拿大 (© Andrey Popov/Getty Images)",
+    "url": "https://www.bing.com/th?id=OHR.MaligneFest_ZH-CN8343066766_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
     "page": "https://www.bing.com"
   }
 }

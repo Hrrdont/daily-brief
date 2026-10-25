@@ -334,5 +334,53 @@
       "url": "https://www.bing.com/th?id=OHR.PortugueseLibrary_ZH-CN7096893027_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "page": "https://www.bing.com"
     }
+  },
+  {
+    "hot": [
+      {
+        "title": "Roku 把开发者仓库从 GitHub 迁到 GitLab",
+        "url": "https://blog.roku.com/developer/gitlab-move",
+        "why": "大厂公开迁代码托管平台，想了解 GitHub 替代方案的真实动因看这篇"
+      },
+      {
+        "title": "The Goose Programming Language",
+        "url": "https://aardappel.github.io/goose/",
+        "why": "新语言设计文档，适合想偷师语法与内存模型取舍的编程爱好者"
+      },
+      {
+        "title": "我们该把软件做得更有野心",
+        "url": "https://danluu.com/ambitious/",
+        "why": "Dan Luu 谈为何工具越强软件反而越保守，读完能校准自己的项目尺度"
+      }
+    ],
+    "growth": [
+      {
+        "title": "在硅谷，遇见个人计算机历史",
+        "url": "https://sspai.com/post/116128",
+        "why": "把博物馆展品和书里故事对上号，是能照着走的动手学习路线"
+      },
+      {
+        "title": "Show HN: Steal My Bitcoin",
+        "url": "https://stealmybitcoin.com/",
+        "why": "公开设挑战让人攻破取币，是检验自己安全功底的实战靶场"
+      }
+    ],
+    "closing": "今天挑的是能上手验证的工程与安全内容，少看观点多看实现。",
+    "date": "2026-10-25",
+    "generated_at": "2026-10-25T08:28:52+08:00",
+    "weather": {
+      "city": "嘉定区",
+      "region": "上海市, 中国",
+      "desc": "小毛毛雨",
+      "tmax": 24,
+      "tmin": 17,
+      "rain": 41
+    },
+    "image": {
+      "title": "群峰与宁静相遇之地",
+      "copyright": "玛琳湖，贾斯珀国家公园，艾伯塔省，加拿大 (© Andrey Popov/Getty Images)",
+      "url": "https://www.bing.com/th?id=OHR.MaligneFest_ZH-CN8343066766_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "page": "https://www.bing.com"
+    }
   }
 ]
