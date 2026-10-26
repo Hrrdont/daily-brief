@@ -382,5 +382,53 @@
       "url": "https://www.bing.com/th?id=OHR.MaligneFest_ZH-CN8343066766_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "page": "https://www.bing.com"
     }
+  },
+  {
+    "hot": [
+      {
+        "title": "在 Google 砍伐了上千英亩树后野狼来到芬兰的村庄",
+        "url": "https://www.solidot.org/story?sid=85706",
+        "why": "数据中心的环境代价具体到狼进村，比抽象碳排更有说服力。"
+      },
+      {
+        "title": "一种远古病毒可能阻碍黑猩猩演化出与人类相似的大脑",
+        "url": "https://www.solidot.org/story?sid=85702",
+        "why": "逆转录病毒参与脑演化的假说，把1.2%基因差异讲出了新变量。"
+      },
+      {
+        "title": "Overgrown, when plants invade your abandoned tabs",
+        "url": "https://charliegerard.dev/blog/overgrown-extension/",
+        "why": "把闲置标签页变成植物生长的浏览器扩展，小点子有完整实现。"
+      }
+    ],
+    "growth": [
+      {
+        "title": "撸狗有助于抵抗下一次压力",
+        "url": "https://www.solidot.org/story?sid=85703",
+        "why": "有实验设计分离身体接触变量，不是“宠物治愈一切”的空话。"
+      },
+      {
+        "title": "60 元打造你的 vibe coding 神器：小米蓝牙遥控器 2 pro",
+        "url": "https://sspai.com/post/114741",
+        "why": "低成本硬件改造可复现，适合想动手又不想烧钱的人。"
+      }
+    ],
+    "closing": "今天值得看的是环境代价的具体化、脑演化的新假说，以及两个能立刻动手的小实验。",
+    "date": "2026-10-26",
+    "generated_at": "2026-10-26T08:37:10+08:00",
+    "weather": {
+      "city": "嘉定区",
+      "region": "上海市, 中国",
+      "desc": "大部晴",
+      "tmax": 23,
+      "tmin": 15,
+      "rain": 0
+    },
+    "image": {
+      "title": "大自然的秋日乐章",
+      "copyright": "秋日瀑布，西托沃附近，普罗夫迪夫州，保加利亚 (© Nadya85/Getty Images)",
+      "url": "https://www.bing.com/th?id=OHR.SitovoWaterfall_ZH-CN8495214046_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "page": "https://www.bing.com"
+    }
   }
 ]

@@ -1,48 +1,48 @@
 {
   "hot": [
     {
-      "title": "Roku 把开发者仓库从 GitHub 迁到 GitLab",
-      "url": "https://blog.roku.com/developer/gitlab-move",
-      "why": "大厂公开迁代码托管平台，想了解 GitHub 替代方案的真实动因看这篇"
+      "title": "在 Google 砍伐了上千英亩树后野狼来到芬兰的村庄",
+      "url": "https://www.solidot.org/story?sid=85706",
+      "why": "数据中心的环境代价具体到狼进村，比抽象碳排更有说服力。"
     },
     {
-      "title": "The Goose Programming Language",
-      "url": "https://aardappel.github.io/goose/",
-      "why": "新语言设计文档，适合想偷师语法与内存模型取舍的编程爱好者"
+      "title": "一种远古病毒可能阻碍黑猩猩演化出与人类相似的大脑",
+      "url": "https://www.solidot.org/story?sid=85702",
+      "why": "逆转录病毒参与脑演化的假说，把1.2%基因差异讲出了新变量。"
     },
     {
-      "title": "我们该把软件做得更有野心",
-      "url": "https://danluu.com/ambitious/",
-      "why": "Dan Luu 谈为何工具越强软件反而越保守，读完能校准自己的项目尺度"
+      "title": "Overgrown, when plants invade your abandoned tabs",
+      "url": "https://charliegerard.dev/blog/overgrown-extension/",
+      "why": "把闲置标签页变成植物生长的浏览器扩展，小点子有完整实现。"
     }
   ],
   "growth": [
     {
-      "title": "在硅谷，遇见个人计算机历史",
-      "url": "https://sspai.com/post/116128",
-      "why": "把博物馆展品和书里故事对上号，是能照着走的动手学习路线"
+      "title": "撸狗有助于抵抗下一次压力",
+      "url": "https://www.solidot.org/story?sid=85703",
+      "why": "有实验设计分离身体接触变量，不是“宠物治愈一切”的空话。"
     },
     {
-      "title": "Show HN: Steal My Bitcoin",
-      "url": "https://stealmybitcoin.com/",
-      "why": "公开设挑战让人攻破取币，是检验自己安全功底的实战靶场"
+      "title": "60 元打造你的 vibe coding 神器：小米蓝牙遥控器 2 pro",
+      "url": "https://sspai.com/post/114741",
+      "why": "低成本硬件改造可复现，适合想动手又不想烧钱的人。"
     }
   ],
-  "closing": "今天挑的是能上手验证的工程与安全内容，少看观点多看实现。",
-  "date": "2026-10-25",
-  "generated_at": "2026-10-25T08:28:52+08:00",
+  "closing": "今天值得看的是环境代价的具体化、脑演化的新假说，以及两个能立刻动手的小实验。",
+  "date": "2026-10-26",
+  "generated_at": "2026-10-26T08:37:10+08:00",
   "weather": {
     "city": "嘉定区",
     "region": "上海市, 中国",
-    "desc": "小毛毛雨",
-    "tmax": 24,
-    "tmin": 17,
-    "rain": 41
+    "desc": "大部晴",
+    "tmax": 23,
+    "tmin": 15,
+    "rain": 0
   },
   "image": {
-    "title": "群峰与宁静相遇之地",
-    "copyright": "玛琳湖，贾斯珀国家公园，艾伯塔省，加拿大 (© Andrey Popov/Getty Images)",
-    "url": "https://www.bing.com/th?id=OHR.MaligneFest_ZH-CN8343066766_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "title": "大自然的秋日乐章",
+    "copyright": "秋日瀑布，西托沃附近，普罗夫迪夫州，保加利亚 (© Nadya85/Getty Images)",
+    "url": "https://www.bing.com/th?id=OHR.SitovoWaterfall_ZH-CN8495214046_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
     "page": "https://www.bing.com"
   }
 }
