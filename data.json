@@ -1,48 +1,48 @@
 {
   "hot": [
     {
-      "title": "在 Google 砍伐了上千英亩树后野狼来到芬兰的村庄",
-      "url": "https://www.solidot.org/story?sid=85706",
-      "why": "数据中心的环境代价具体到狼进村，比抽象碳排更有说服力。"
+      "title": "OpenAI 宣布数学、计算机科学与物理三项新发现",
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+      "why": "AI 直接产出基础学科成果，值得看它到底做了什么、能不能复现"
     },
     {
-      "title": "一种远古病毒可能阻碍黑猩猩演化出与人类相似的大脑",
-      "url": "https://www.solidot.org/story?sid=85702",
-      "why": "逆转录病毒参与脑演化的假说，把1.2%基因差异讲出了新变量。"
+      "title": "《指数时间假设为假》预印本",
+      "url": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
+      "why": "若成立将动摇复杂度理论根基，先读原文再判断真假"
     },
     {
-      "title": "Overgrown, when plants invade your abandoned tabs",
-      "url": "https://charliegerard.dev/blog/overgrown-extension/",
-      "why": "把闲置标签页变成植物生长的浏览器扩展，小点子有完整实现。"
+      "title": "Sebastian Raschka 从零构建推理模型的视频课",
+      "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+      "why": "手把手实现推理模型，比读论文更适合动手学"
     }
   ],
   "growth": [
     {
-      "title": "撸狗有助于抵抗下一次压力",
-      "url": "https://www.solidot.org/story?sid=85703",
-      "why": "有实验设计分离身体接触变量，不是“宠物治愈一切”的空话。"
+      "title": "仍在 Windows 11 上运行的最古老 GUI 程序",
+      "url": "https://blog.enlyth.com/posts/oldest-windows-gui-app-win-11/",
+      "why": "一次可亲手验证的兼容性考古，看老代码如何活到今天"
     },
     {
-      "title": "60 元打造你的 vibe coding 神器：小米蓝牙遥控器 2 pro",
-      "url": "https://sspai.com/post/114741",
-      "why": "低成本硬件改造可复现，适合想动手又不想烧钱的人。"
+      "title": "为什么你的 DeepSeek 和别人不一样？实测揭秘",
+      "url": "https://b23.tv/BV1btH36uEru",
+      "why": "用实测拆解同一模型的输出差异，教你复现而非听结论"
     }
   ],
-  "closing": "今天值得看的是环境代价的具体化、脑演化的新假说，以及两个能立刻动手的小实验。",
-  "date": "2026-10-26",
-  "generated_at": "2026-10-26T08:37:10+08:00",
+  "closing": "今天值得花时间的是能自己跑一遍、验一遍的东西，而不是标题。",
+  "date": "2026-10-27",
+  "generated_at": "2026-10-27T09:35:44+08:00",
   "weather": {
     "city": "嘉定区",
     "region": "上海市, 中国",
-    "desc": "大部晴",
-    "tmax": 23,
-    "tmin": 15,
-    "rain": 0
+    "desc": "小毛毛雨",
+    "tmax": 21,
+    "tmin": 13,
+    "rain": 2
   },
   "image": {
-    "title": "大自然的秋日乐章",
-    "copyright": "秋日瀑布，西托沃附近，普罗夫迪夫州，保加利亚 (© Nadya85/Getty Images)",
-    "url": "https://www.bing.com/th?id=OHR.SitovoWaterfall_ZH-CN8495214046_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "title": "大自然的金色明镜",
+    "copyright": "秋叶缤纷的池杉林，乔治亚州，美国 (© Chris Moore/Getty Images)",
+    "url": "https://www.bing.com/th?id=OHR.PondCypress_ZH-CN9472607734_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
     "page": "https://www.bing.com"
   }
 }
