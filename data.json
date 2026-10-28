@@ -1,48 +1,48 @@
 {
   "hot": [
     {
-      "title": "OpenAI 宣布数学、计算机科学与物理三项新发现",
-      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
-      "why": "AI 直接产出基础学科成果，值得看它到底做了什么、能不能复现"
+      "title": "Genie 4：新一代世界模拟模型",
+      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "why": "世界模型又进一步，搞AI和做游戏的人都该看看它怎么生成可交互环境。"
     },
     {
-      "title": "《指数时间假设为假》预印本",
-      "url": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
-      "why": "若成立将动摇复杂度理论根基，先读原文再判断真假"
+      "title": "Ghostty 1.4 发布",
+      "url": "https://ghostty.org/docs/install/release-notes/1-4-0",
+      "why": "终端折腾党关注的开源项目，看新版本改了什么再决定要不要换。"
     },
     {
-      "title": "Sebastian Raschka 从零构建推理模型的视频课",
-      "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
-      "why": "手把手实现推理模型，比读论文更适合动手学"
+      "title": "Tailscale SSH 事故调查与修复更新",
+      "url": "https://tailscale.com/ssh-investigation-update",
+      "why": "讲清一次真实安全事件的来龙去脉，比读十条安全口号有用。"
     }
   ],
   "growth": [
     {
-      "title": "仍在 Windows 11 上运行的最古老 GUI 程序",
-      "url": "https://blog.enlyth.com/posts/oldest-windows-gui-app-win-11/",
-      "why": "一次可亲手验证的兼容性考古，看老代码如何活到今天"
+      "title": "生命起源：四十亿年前，地球如何诞生第一个生命？",
+      "url": "https://b23.tv/BV1WYnd6DEAw",
+      "why": "把化学演化到生命的推理链讲明白，适合当一次严肃的科学补课。"
     },
     {
-      "title": "为什么你的 DeepSeek 和别人不一样？实测揭秘",
-      "url": "https://b23.tv/BV1btH36uEru",
-      "why": "用实测拆解同一模型的输出差异，教你复现而非听结论"
+      "title": "用 Claude 加速药物开发的早期进展",
+      "url": "https://www.anthropic.com/research/early-progress-drug-development",
+      "why": "有具体研究方向的AI落地案例，能看清LLM在科研里到底帮上什么忙。"
     }
   ],
-  "closing": "今天值得花时间的是能自己跑一遍、验一遍的东西，而不是标题。",
-  "date": "2026-10-27",
-  "generated_at": "2026-10-27T09:35:44+08:00",
+  "closing": "今天值得看的是世界模型、开源终端和一次真实的安全复盘，成长部分则用生命起源和AI药物研发替代鸡汤。",
+  "date": "2026-10-28",
+  "generated_at": "2026-10-28T09:35:08+08:00",
   "weather": {
     "city": "嘉定区",
     "region": "上海市, 中国",
-    "desc": "小毛毛雨",
-    "tmax": 21,
-    "tmin": 13,
-    "rain": 2
+    "desc": "阴",
+    "tmax": 20,
+    "tmin": 12,
+    "rain": 0
   },
   "image": {
-    "title": "大自然的金色明镜",
-    "copyright": "秋叶缤纷的池杉林，乔治亚州，美国 (© Chris Moore/Getty Images)",
-    "url": "https://www.bing.com/th?id=OHR.PondCypress_ZH-CN9472607734_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "title": "历史守望之地",
+    "copyright": "库涅季采山城堡，波希米亚，捷克 (© Marek Saroch/Alamy)",
+    "url": "https://www.bing.com/th?id=OHR.KuneticeCastle_ZH-CN8895858920_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
     "page": "https://www.bing.com"
   }
 }

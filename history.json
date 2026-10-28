@@ -478,5 +478,53 @@
       "url": "https://www.bing.com/th?id=OHR.PondCypress_ZH-CN9472607734_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "page": "https://www.bing.com"
     }
+  },
+  {
+    "hot": [
+      {
+        "title": "Genie 4：新一代世界模拟模型",
+        "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+        "why": "世界模型又进一步，搞AI和做游戏的人都该看看它怎么生成可交互环境。"
+      },
+      {
+        "title": "Ghostty 1.4 发布",
+        "url": "https://ghostty.org/docs/install/release-notes/1-4-0",
+        "why": "终端折腾党关注的开源项目，看新版本改了什么再决定要不要换。"
+      },
+      {
+        "title": "Tailscale SSH 事故调查与修复更新",
+        "url": "https://tailscale.com/ssh-investigation-update",
+        "why": "讲清一次真实安全事件的来龙去脉，比读十条安全口号有用。"
+      }
+    ],
+    "growth": [
+      {
+        "title": "生命起源：四十亿年前，地球如何诞生第一个生命？",
+        "url": "https://b23.tv/BV1WYnd6DEAw",
+        "why": "把化学演化到生命的推理链讲明白，适合当一次严肃的科学补课。"
+      },
+      {
+        "title": "用 Claude 加速药物开发的早期进展",
+        "url": "https://www.anthropic.com/research/early-progress-drug-development",
+        "why": "有具体研究方向的AI落地案例，能看清LLM在科研里到底帮上什么忙。"
+      }
+    ],
+    "closing": "今天值得看的是世界模型、开源终端和一次真实的安全复盘，成长部分则用生命起源和AI药物研发替代鸡汤。",
+    "date": "2026-10-28",
+    "generated_at": "2026-10-28T09:35:08+08:00",
+    "weather": {
+      "city": "嘉定区",
+      "region": "上海市, 中国",
+      "desc": "阴",
+      "tmax": 20,
+      "tmin": 12,
+      "rain": 0
+    },
+    "image": {
+      "title": "历史守望之地",
+      "copyright": "库涅季采山城堡，波希米亚，捷克 (© Marek Saroch/Alamy)",
+      "url": "https://www.bing.com/th?id=OHR.KuneticeCastle_ZH-CN8895858920_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "page": "https://www.bing.com"
+    }
   }
 ]
