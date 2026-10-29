@@ -1,48 +1,48 @@
 {
   "hot": [
     {
-      "title": "Genie 4：新一代世界模拟模型",
-      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
-      "why": "世界模型又进一步，搞AI和做游戏的人都该看看它怎么生成可交互环境。"
+      "title": "Qwenputer：在 Qwen3.5 模型里跑出一个可运行的确定性 RISC-V CPU",
+      "url": "https://divagr.com/blog/qwenputer",
+      "why": "LLM 里塞进能跑指令的 CPU，是理解模型内部计算的新奇实验。"
     },
     {
-      "title": "Ghostty 1.4 发布",
-      "url": "https://ghostty.org/docs/install/release-notes/1-4-0",
-      "why": "终端折腾党关注的开源项目，看新版本改了什么再决定要不要换。"
+      "title": "一个指纹识别脚本怎么被用来造生物武器？",
+      "url": "https://nullpt.rs/fingerprinting-bioweapons",
+      "why": "858 分热帖，讲清浏览器指纹代码被滥用的荒诞链条，安全视角很实用。"
     },
     {
-      "title": "Tailscale SSH 事故调查与修复更新",
-      "url": "https://tailscale.com/ssh-investigation-update",
-      "why": "讲清一次真实安全事件的来龙去脉，比读十条安全口号有用。"
+      "title": "科技爱好者周刊 416 期：编程已经面目全非",
+      "url": "http://www.ruanyifeng.com/blog/2026/10/weekly-issue-416.html",
+      "why": "阮一峰这期主题直指 AI 改写编程方式，适合一次读完校准方向。"
     }
   ],
   "growth": [
     {
-      "title": "生命起源：四十亿年前，地球如何诞生第一个生命？",
-      "url": "https://b23.tv/BV1WYnd6DEAw",
-      "why": "把化学演化到生命的推理链讲明白，适合当一次严肃的科学补课。"
+      "title": "MicroZig 采用严格「无 LLM / 无 AI」贡献政策",
+      "url": "https://github.com/ZigEmbeddedGroup/microzig/blob/main/CODE_OF_CONDUCT.md",
+      "why": "开源项目如何划定 AI 使用边界，是能直接照搬的治理样本。"
     },
     {
-      "title": "用 Claude 加速药物开发的早期进展",
-      "url": "https://www.anthropic.com/research/early-progress-drug-development",
-      "why": "有具体研究方向的AI落地案例，能看清LLM在科研里到底帮上什么忙。"
+      "title": "A Health Update",
+      "url": "https://furbo.org/2026/10/28/a-health-update/",
+      "why": "开发者公开健康近况，提醒长期写代码的人正视身体这个真实约束。"
     }
   ],
-  "closing": "今天值得看的是世界模型、开源终端和一次真实的安全复盘，成长部分则用生命起源和AI药物研发替代鸡汤。",
-  "date": "2026-10-28",
-  "generated_at": "2026-10-28T09:35:08+08:00",
+  "closing": "今天值得看的是模型内部实验、安全链条和开源治理，成长类只留可验证的两条。",
+  "date": "2026-10-29",
+  "generated_at": "2026-10-29T09:55:28+08:00",
   "weather": {
     "city": "嘉定区",
     "region": "上海市, 中国",
-    "desc": "阴",
-    "tmax": 20,
-    "tmin": 12,
-    "rain": 0
+    "desc": "毛毛雨",
+    "tmax": 23,
+    "tmin": 14,
+    "rain": 69
   },
   "image": {
-    "title": "历史守望之地",
-    "copyright": "库涅季采山城堡，波希米亚，捷克 (© Marek Saroch/Alamy)",
-    "url": "https://www.bing.com/th?id=OHR.KuneticeCastle_ZH-CN8895858920_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "title": "薄雾邂逅千年时光",
+    "copyright": "立石，埃夫伯里，威尔特郡，英格兰 (© George W Johnson/Getty Images)",
+    "url": "https://www.bing.com/th?id=OHR.AveburyStones_ZH-CN9127100951_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
     "page": "https://www.bing.com"
   }
 }

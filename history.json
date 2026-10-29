@@ -526,5 +526,53 @@
       "url": "https://www.bing.com/th?id=OHR.KuneticeCastle_ZH-CN8895858920_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "page": "https://www.bing.com"
     }
+  },
+  {
+    "hot": [
+      {
+        "title": "Qwenputer：在 Qwen3.5 模型里跑出一个可运行的确定性 RISC-V CPU",
+        "url": "https://divagr.com/blog/qwenputer",
+        "why": "LLM 里塞进能跑指令的 CPU，是理解模型内部计算的新奇实验。"
+      },
+      {
+        "title": "一个指纹识别脚本怎么被用来造生物武器？",
+        "url": "https://nullpt.rs/fingerprinting-bioweapons",
+        "why": "858 分热帖，讲清浏览器指纹代码被滥用的荒诞链条，安全视角很实用。"
+      },
+      {
+        "title": "科技爱好者周刊 416 期：编程已经面目全非",
+        "url": "http://www.ruanyifeng.com/blog/2026/10/weekly-issue-416.html",
+        "why": "阮一峰这期主题直指 AI 改写编程方式，适合一次读完校准方向。"
+      }
+    ],
+    "growth": [
+      {
+        "title": "MicroZig 采用严格「无 LLM / 无 AI」贡献政策",
+        "url": "https://github.com/ZigEmbeddedGroup/microzig/blob/main/CODE_OF_CONDUCT.md",
+        "why": "开源项目如何划定 AI 使用边界，是能直接照搬的治理样本。"
+      },
+      {
+        "title": "A Health Update",
+        "url": "https://furbo.org/2026/10/28/a-health-update/",
+        "why": "开发者公开健康近况，提醒长期写代码的人正视身体这个真实约束。"
+      }
+    ],
+    "closing": "今天值得看的是模型内部实验、安全链条和开源治理，成长类只留可验证的两条。",
+    "date": "2026-10-29",
+    "generated_at": "2026-10-29T09:55:28+08:00",
+    "weather": {
+      "city": "嘉定区",
+      "region": "上海市, 中国",
+      "desc": "毛毛雨",
+      "tmax": 23,
+      "tmin": 14,
+      "rain": 69
+    },
+    "image": {
+      "title": "薄雾邂逅千年时光",
+      "copyright": "立石，埃夫伯里，威尔特郡，英格兰 (© George W Johnson/Getty Images)",
+      "url": "https://www.bing.com/th?id=OHR.AveburyStones_ZH-CN9127100951_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "page": "https://www.bing.com"
+    }
   }
 ]
