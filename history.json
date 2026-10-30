@@ -574,5 +574,53 @@
       "url": "https://www.bing.com/th?id=OHR.AveburyStones_ZH-CN9127100951_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "page": "https://www.bing.com"
     }
+  },
+  {
+    "hot": [
+      {
+        "title": "Mistral 开源 Mistral Large 4 权重",
+        "url": "https://mistral.ai/news/mistral-large-4-oss/",
+        "why": "又一个大模型把权重放出来了，值得看开源模型和闭源模型的差距还剩多少。"
+      },
+      {
+        "title": "在树莓派 Pico 2 W 上跑一个微型世界模型",
+        "url": "https://github.com/SheepSeb/tinyworldformer",
+        "why": "几美元的微控制器跑世界模型，硬件折腾和 AI 的交汇点，代码直接能看。"
+      },
+      {
+        "title": "YC 实验室让 AI agent 集群在 Minecraft 和 Mindustry 里跑",
+        "url": "https://labs.ycombinator.com/projects/games/index.html",
+        "why": "多智能体协作的真实实验场，比 PPT 演示更能看出 agent 现在能干什么。"
+      }
+    ],
+    "growth": [
+      {
+        "title": "科技爱好者周刊（第 417 期）：不要让 AI 代表你",
+        "url": "http://www.ruanyifeng.com/blog/2026/10/weekly-issue-417.html",
+        "why": "讲清楚哪些事该自己动手、哪些能交给 AI，有具体判断标准不是鸡汤。"
+      },
+      {
+        "title": "新玩意 254｜少数派的编辑们最近买了啥？",
+        "url": "https://sspai.com/post/117791",
+        "why": "看别人真实买什么、用后什么感受，是校准自己消费和折腾欲望的好样本。"
+      }
+    ],
+    "closing": "今天值得花时间的是开源大模型和把 AI 塞进小硬件这两件事，其余先放一放。",
+    "date": "2026-10-30",
+    "generated_at": "2026-10-30T10:06:52+08:00",
+    "weather": {
+      "city": "嘉定区",
+      "region": "上海市, 中国",
+      "desc": "雾",
+      "tmax": 22,
+      "tmin": 12,
+      "rain": 0
+    },
+    "image": {
+      "title": "展翅高飞的时节",
+      "copyright": "沙丘鹤，博斯克德尔阿帕奇国家野生动物保护区，新墨西哥州，美国 (© Terry St.Louis/Getty Images)",
+      "url": "https://www.bing.com/th?id=OHR.AutumnCranes_ZH-CN5772055404_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "page": "https://www.bing.com"
+    }
   }
 ]

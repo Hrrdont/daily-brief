@@ -1,48 +1,48 @@
 {
   "hot": [
     {
-      "title": "Qwenputer：在 Qwen3.5 模型里跑出一个可运行的确定性 RISC-V CPU",
-      "url": "https://divagr.com/blog/qwenputer",
-      "why": "LLM 里塞进能跑指令的 CPU，是理解模型内部计算的新奇实验。"
+      "title": "Mistral 开源 Mistral Large 4 权重",
+      "url": "https://mistral.ai/news/mistral-large-4-oss/",
+      "why": "又一个大模型把权重放出来了，值得看开源模型和闭源模型的差距还剩多少。"
     },
     {
-      "title": "一个指纹识别脚本怎么被用来造生物武器？",
-      "url": "https://nullpt.rs/fingerprinting-bioweapons",
-      "why": "858 分热帖，讲清浏览器指纹代码被滥用的荒诞链条，安全视角很实用。"
+      "title": "在树莓派 Pico 2 W 上跑一个微型世界模型",
+      "url": "https://github.com/SheepSeb/tinyworldformer",
+      "why": "几美元的微控制器跑世界模型，硬件折腾和 AI 的交汇点，代码直接能看。"
     },
     {
-      "title": "科技爱好者周刊 416 期：编程已经面目全非",
-      "url": "http://www.ruanyifeng.com/blog/2026/10/weekly-issue-416.html",
-      "why": "阮一峰这期主题直指 AI 改写编程方式，适合一次读完校准方向。"
+      "title": "YC 实验室让 AI agent 集群在 Minecraft 和 Mindustry 里跑",
+      "url": "https://labs.ycombinator.com/projects/games/index.html",
+      "why": "多智能体协作的真实实验场，比 PPT 演示更能看出 agent 现在能干什么。"
     }
   ],
   "growth": [
     {
-      "title": "MicroZig 采用严格「无 LLM / 无 AI」贡献政策",
-      "url": "https://github.com/ZigEmbeddedGroup/microzig/blob/main/CODE_OF_CONDUCT.md",
-      "why": "开源项目如何划定 AI 使用边界，是能直接照搬的治理样本。"
+      "title": "科技爱好者周刊（第 417 期）：不要让 AI 代表你",
+      "url": "http://www.ruanyifeng.com/blog/2026/10/weekly-issue-417.html",
+      "why": "讲清楚哪些事该自己动手、哪些能交给 AI，有具体判断标准不是鸡汤。"
     },
     {
-      "title": "A Health Update",
-      "url": "https://furbo.org/2026/10/28/a-health-update/",
-      "why": "开发者公开健康近况，提醒长期写代码的人正视身体这个真实约束。"
+      "title": "新玩意 254｜少数派的编辑们最近买了啥？",
+      "url": "https://sspai.com/post/117791",
+      "why": "看别人真实买什么、用后什么感受，是校准自己消费和折腾欲望的好样本。"
     }
   ],
-  "closing": "今天值得看的是模型内部实验、安全链条和开源治理，成长类只留可验证的两条。",
-  "date": "2026-10-29",
-  "generated_at": "2026-10-29T09:55:28+08:00",
+  "closing": "今天值得花时间的是开源大模型和把 AI 塞进小硬件这两件事，其余先放一放。",
+  "date": "2026-10-30",
+  "generated_at": "2026-10-30T10:06:52+08:00",
   "weather": {
     "city": "嘉定区",
     "region": "上海市, 中国",
-    "desc": "毛毛雨",
-    "tmax": 23,
-    "tmin": 14,
-    "rain": 69
+    "desc": "雾",
+    "tmax": 22,
+    "tmin": 12,
+    "rain": 0
   },
   "image": {
-    "title": "薄雾邂逅千年时光",
-    "copyright": "立石，埃夫伯里，威尔特郡，英格兰 (© George W Johnson/Getty Images)",
-    "url": "https://www.bing.com/th?id=OHR.AveburyStones_ZH-CN9127100951_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "title": "展翅高飞的时节",
+    "copyright": "沙丘鹤，博斯克德尔阿帕奇国家野生动物保护区，新墨西哥州，美国 (© Terry St.Louis/Getty Images)",
+    "url": "https://www.bing.com/th?id=OHR.AutumnCranes_ZH-CN5772055404_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
     "page": "https://www.bing.com"
   }
 }
