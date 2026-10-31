@@ -622,5 +622,53 @@
       "url": "https://www.bing.com/th?id=OHR.AutumnCranes_ZH-CN5772055404_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "page": "https://www.bing.com"
     }
+  },
+  {
+    "hot": [
+      {
+        "title": "官方 Claude Code VS Code 扩展在 Cursor 市场被植入后门",
+        "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+        "why": "你天天用的 AI 编程插件供应链被攻击，值得检查自己的安装来源"
+      },
+      {
+        "title": "Cloudflare Turnstile 求解库，无需无头浏览器",
+        "url": "https://github.com/chris124567/cfsolve",
+        "why": "反爬与自动化的攻防样本，做爬虫或风控的都该读实现"
+      },
+      {
+        "title": "我最爱的 PowerMac 是一台任天堂 Wii",
+        "url": "https://virtuallyfun.com/2026/10/29/my-favourite-powermac-is-a-nintendo-wii/",
+        "why": "把 Wii 硬件改造成老 Mac 模拟器，硬件折腾的脑洞与工程细节都在"
+      }
+    ],
+    "growth": [
+      {
+        "title": "App+1｜该吃药了：一片小药板，让吃药提醒变得轻松有趣",
+        "url": "https://sspai.com/post/116047",
+        "why": "可验证的习惯设计案例：降低摩擦比意志力更管用，能直接照搬"
+      },
+      {
+        "title": "Show HN：为纪念 Patrick Stewart，玩 TNG 剧集猜谜游戏",
+        "url": "https://tng.episodle.com/",
+        "why": "小项目完整闭环的范例，看一个人如何把兴趣做成可玩的东西"
+      }
+    ],
+    "closing": "今天最该动手的是查一遍你的编辑器插件来源，其余当灵感。",
+    "date": "2026-10-31",
+    "generated_at": "2026-10-31T09:45:05+08:00",
+    "weather": {
+      "city": "嘉定区",
+      "region": "上海市, 中国",
+      "desc": "雾",
+      "tmax": 23,
+      "tmin": 11,
+      "rain": 0
+    },
+    "image": {
+      "title": "往昔帝国的幽影",
+      "copyright": "圣巴尔多禄茂教堂，法兰克福，德国 (© AlxeyPnferov/Getty Images)",
+      "url": "https://www.bing.com/th?id=OHR.FrankfurtHalloween_ZH-CN5998782698_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "page": "https://www.bing.com"
+    }
   }
 ]
