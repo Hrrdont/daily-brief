@@ -670,5 +670,53 @@
       "url": "https://www.bing.com/th?id=OHR.FrankfurtHalloween_ZH-CN5998782698_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "page": "https://www.bing.com"
     }
+  },
+  {
+    "hot": [
+      {
+        "title": "TCP 释放后使用漏洞 CVE-2026-98432（CVSS 9.8）",
+        "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
+        "why": "Linux 内核 TCP 栈满分漏洞，跑服务器的都该看看影响面"
+      },
+      {
+        "title": "思科给一名 27 岁工程师无限 tokens 重写遗留代码",
+        "url": "https://www.solidot.org/story?sid=85764",
+        "why": "真实案例：AI 重写老代码到底怎么落地、代价是什么"
+      },
+      {
+        "title": "HackerTube：用 HN 推荐视频搭出的 YouTube",
+        "url": "https://karpathy.bearblog.dev/hacker-tube/",
+        "why": "小而完整的折腾项目，顺手能挖到不少好视频源"
+      }
+    ],
+    "growth": [
+      {
+        "title": "漫士：这可能是人类提出最深刻的数学/计算机问题",
+        "url": "https://b23.tv/BV1Ntxr6xE7Y",
+        "why": "把 P vs NP 讲清楚，看完能自己复述问题本身"
+      },
+      {
+        "title": "意大利农民在阁楼发现未知种子并种了出来",
+        "url": "https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/",
+        "why": "一个可验证的长期实验样本：低成本的坚持如何产生结果"
+      }
+    ],
+    "closing": "今天真正值钱的是那个满分 TCP 漏洞和思科重写老代码的实操，其余按兴趣挑。",
+    "date": "2026-11-01",
+    "generated_at": "2026-11-01T09:24:11+08:00",
+    "weather": {
+      "city": "嘉定区",
+      "region": "上海市, 中国",
+      "desc": "小雨",
+      "tmax": 26,
+      "tmin": 15,
+      "rain": 98
+    },
+    "image": {
+      "title": "林间迷雾",
+      "copyright": "黑森林，巴登-符腾堡州，德国 (© Britus/Getty Images)",
+      "url": "https://www.bing.com/th?id=OHR.SchwarzwaldAutumn_ZH-CN6323627599_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "page": "https://www.bing.com"
+    }
   }
 ]
