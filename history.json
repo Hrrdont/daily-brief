@@ -718,5 +718,53 @@
       "url": "https://www.bing.com/th?id=OHR.SchwarzwaldAutumn_ZH-CN6323627599_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "page": "https://www.bing.com"
     }
+  },
+  {
+    "hot": [
+      {
+        "title": "HackerBooks：把 HN 上被提到的书做成可检索站点",
+        "url": "https://hackerbooks.org",
+        "why": "HN 高分，等于让社区替你筛过一遍技术人真正在读的书。"
+      },
+      {
+        "title": "Nibnib：解压速度极端的图像压缩方案",
+        "url": "https://github.com/raphlinus/nibnib",
+        "why": "作者是字体与图形老手，压缩思路值得做性能的人读源码。"
+      },
+      {
+        "title": "夏普 Telios：20 多年前 Handheld PC 里的少数派",
+        "url": "https://sspai.com/post/116991",
+        "why": "小众硬件的取舍史，对今天做设备与交互设计仍有参照。"
+      }
+    ],
+    "growth": [
+      {
+        "title": "Ask HN：注重隐私的电视怎么选",
+        "url": "https://news.ycombinator.com/item?id=50328896",
+        "why": "评论区是真实踩坑清单，可照着核对自己家的电视设置。"
+      },
+      {
+        "title": "美国数据中心：一万多条市议会意见可听",
+        "url": "https://www.americansentiment.com/datacenters",
+        "why": "把公共听证变成可查数据，练习从一手材料里自己下判断。"
+      }
+    ],
+    "closing": "今天值得看的是别人替你筛过的书单、一个极端性能的压缩实现，以及一份可核对的真实意见数据。",
+    "date": "2026-11-02",
+    "generated_at": "2026-11-02T09:44:11+08:00",
+    "weather": {
+      "city": "嘉定区",
+      "region": "上海市, 中国",
+      "desc": "小雨",
+      "tmax": 20,
+      "tmin": 13,
+      "rain": 100
+    },
+    "image": {
+      "title": "写在冰上的未来",
+      "copyright": "北极熊和幼崽，哈得孙湾畔，马尼托巴省，加拿大 (© Danita Delimont/Adobe Stock)",
+      "url": "https://www.bing.com/th?id=OHR.HudsonBear_ZH-CN6630706907_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "page": "https://www.bing.com"
+    }
   }
 ]
