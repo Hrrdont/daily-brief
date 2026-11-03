@@ -766,5 +766,53 @@
       "url": "https://www.bing.com/th?id=OHR.HudsonBear_ZH-CN6630706907_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "page": "https://www.bing.com"
     }
+  },
+  {
+    "hot": [
+      {
+        "title": "Astra 能读写权重来改进 Qwen",
+        "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+        "why": "直接在权重空间做编程改模型，比微调更底层，值得看思路"
+      },
+      {
+        "title": "DiscImageStudio：把可见图案烧录到 CD/DVD/蓝光光盘",
+        "url": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
+        "why": "开源硬件折腾的浪漫，光盘刻绘原理和实现都值得一看"
+      },
+      {
+        "title": "美团发布 LongCat-2.5 模型",
+        "url": "https://sspai.com/post/118232",
+        "why": "国产大模型又一新玩家，看它和现有模型差在哪"
+      }
+    ],
+    "growth": [
+      {
+        "title": "Hacker Times：致敬纽约时报版式的 Hacker News",
+        "url": "https://hackertimes.ca/",
+        "why": "把信息流做成报纸排版，是练审美和阅读节奏的好样本"
+      },
+      {
+        "title": "派评：近期值得关注的 App",
+        "url": "https://sspai.com/post/118240",
+        "why": "智能点击器和旧 iPhone 相机解锁，都是能立刻上手验证的工具"
+      }
+    ],
+    "closing": "今天值得动手的多过值得读的：去改一次权重、刻一张盘，比刷十条新闻实在。",
+    "date": "2026-11-03",
+    "generated_at": "2026-11-03T11:39:24+08:00",
+    "weather": {
+      "city": "嘉定区",
+      "region": "上海市, 中国",
+      "desc": "小毛毛雨",
+      "tmax": 20,
+      "tmin": 12,
+      "rain": 25
+    },
+    "image": {
+      "title": "群峰间的宁静",
+      "copyright": "布莱埃斯湖，法内斯-塞内斯-布莱埃斯湖自然公园，多洛米蒂山脉，意大利 (© leonid_tit/Getty Images)",
+      "url": "https://www.bing.com/th?id=OHR.AlpineBraies_ZH-CN7307997866_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "page": "https://www.bing.com"
+    }
   }
 ]
