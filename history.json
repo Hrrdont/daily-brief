@@ -814,5 +814,53 @@
       "url": "https://www.bing.com/th?id=OHR.AlpineBraies_ZH-CN7307997866_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "page": "https://www.bing.com"
     }
+  },
+  {
+    "hot": [
+      {
+        "title": "Jailbreaking my car's navigation system just so I can change the time",
+        "url": "https://blog.nns.ee/2026/11/02/renault-hack/",
+        "why": "为改个时间就逆向车机，硬件折腾的真实样本，过程比结果好看。"
+      },
+      {
+        "title": "Stringman, an $800 open-source room scale gripper robot",
+        "url": "https://neufangled.com/",
+        "why": "800 美元的开源房间级抓取机器人，能自己复刻的硬件项目不多见。"
+      },
+      {
+        "title": "The Internals of PostgreSQL",
+        "url": "https://www.interdb.jp/pg/index.html",
+        "why": "数据库内核的免费系统教程，写 SQL 之外想懂存储和事务就看它。"
+      }
+    ],
+    "growth": [
+      {
+        "title": "科技爱好者周刊（第 416 期）：编程已经面目全非",
+        "url": "http://www.ruanyifeng.com/blog/2026/10/weekly-issue-416.html",
+        "why": "阮一峰对 AI 改写编程这件事的观察，读完能校准自己的学习方向。"
+      },
+      {
+        "title": "Safari introduces Adaptive Dark Mode in 27.3",
+        "url": "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/",
+        "why": "看浏览器怎么用算法处理对比度，是审美与工程结合的具体案例。"
+      }
+    ],
+    "closing": "今天值得看的是别人亲手拆开的系统和亲手踩过的坑，而不是又一轮模型发布。",
+    "date": "2026-11-04",
+    "generated_at": "2026-11-04T10:37:51+08:00",
+    "weather": {
+      "city": "嘉定区",
+      "region": "上海市, 中国",
+      "desc": "强阵雨",
+      "tmax": 19,
+      "tmin": 15,
+      "rain": 100
+    },
+    "image": {
+      "title": "泛舟如画秋林",
+      "copyright": "五彩落羽杉间划船的人们，宣城，安徽省，中国 (© Jackal Pan/Getty Images)",
+      "url": "https://www.bing.com/th?id=OHR.AutumnChina_ZH-CN7665959692_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "page": "https://www.bing.com"
+    }
   }
 ]
