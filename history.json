@@ -862,5 +862,53 @@
       "url": "https://www.bing.com/th?id=OHR.AutumnChina_ZH-CN7665959692_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "page": "https://www.bing.com"
     }
+  },
+  {
+    "hot": [
+      {
+        "title": "AI 正在迫使我们偿还 40 年的技术债",
+        "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+        "why": "讲 AI 如何把陈年漏洞变成真问题，做工程的人该看"
+      },
+      {
+        "title": "白宫网络被检测到住宅代理",
+        "url": "https://layer3intel.com/blog/residential-proxies-white-house-network",
+        "why": "一次真实的网络测绘案例，看别人怎么从公开数据里挖出异常"
+      },
+      {
+        "title": "OpenAI：一千条更少的通往 root 的路径",
+        "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
+        "why": "安全加固思路的具体拆解，比空谈防御有用"
+      }
+    ],
+    "growth": [
+      {
+        "title": "科技爱好者周刊 417：不要让 AI 代表你",
+        "url": "http://www.ruanyifeng.com/blog/2026/10/weekly-issue-417.html",
+        "why": "提醒你哪些事该自己判断，可对照着改掉一个习惯"
+      },
+      {
+        "title": "你不知道的客户端开发：AI 时代的选型、原生与借力",
+        "url": "https://sspai.com/post/117713",
+        "why": "讲选型背后的取舍逻辑，做技术决策前值得先读一遍"
+      }
+    ],
+    "closing": "今天值得花时间的是安全与工程债这两条硬内容，成长部分挑一条对照着改。",
+    "date": "2026-11-05",
+    "generated_at": "2026-11-05T10:42:08+08:00",
+    "weather": {
+      "city": "嘉定区",
+      "region": "上海市, 中国",
+      "desc": "小毛毛雨",
+      "tmax": 20,
+      "tmin": 13,
+      "rain": 1
+    },
+    "image": {
+      "title": "向山巅再迈一步",
+      "copyright": "石墙边的木制翻越梯，黑岩，湖区，英格兰 (© Alex Treadway/Getty Images)",
+      "url": "https://www.bing.com/th?id=OHR.StileCrossing_ZH-CN9811465935_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "page": "https://www.bing.com"
+    }
   }
 ]

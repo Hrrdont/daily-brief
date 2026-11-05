@@ -1,48 +1,48 @@
 {
   "hot": [
     {
-      "title": "Jailbreaking my car's navigation system just so I can change the time",
-      "url": "https://blog.nns.ee/2026/11/02/renault-hack/",
-      "why": "为改个时间就逆向车机，硬件折腾的真实样本，过程比结果好看。"
+      "title": "AI 正在迫使我们偿还 40 年的技术债",
+      "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+      "why": "讲 AI 如何把陈年漏洞变成真问题，做工程的人该看"
     },
     {
-      "title": "Stringman, an $800 open-source room scale gripper robot",
-      "url": "https://neufangled.com/",
-      "why": "800 美元的开源房间级抓取机器人，能自己复刻的硬件项目不多见。"
+      "title": "白宫网络被检测到住宅代理",
+      "url": "https://layer3intel.com/blog/residential-proxies-white-house-network",
+      "why": "一次真实的网络测绘案例，看别人怎么从公开数据里挖出异常"
     },
     {
-      "title": "The Internals of PostgreSQL",
-      "url": "https://www.interdb.jp/pg/index.html",
-      "why": "数据库内核的免费系统教程，写 SQL 之外想懂存储和事务就看它。"
+      "title": "OpenAI：一千条更少的通往 root 的路径",
+      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
+      "why": "安全加固思路的具体拆解，比空谈防御有用"
     }
   ],
   "growth": [
     {
-      "title": "科技爱好者周刊（第 416 期）：编程已经面目全非",
-      "url": "http://www.ruanyifeng.com/blog/2026/10/weekly-issue-416.html",
-      "why": "阮一峰对 AI 改写编程这件事的观察，读完能校准自己的学习方向。"
+      "title": "科技爱好者周刊 417：不要让 AI 代表你",
+      "url": "http://www.ruanyifeng.com/blog/2026/10/weekly-issue-417.html",
+      "why": "提醒你哪些事该自己判断，可对照着改掉一个习惯"
     },
     {
-      "title": "Safari introduces Adaptive Dark Mode in 27.3",
-      "url": "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/",
-      "why": "看浏览器怎么用算法处理对比度，是审美与工程结合的具体案例。"
+      "title": "你不知道的客户端开发：AI 时代的选型、原生与借力",
+      "url": "https://sspai.com/post/117713",
+      "why": "讲选型背后的取舍逻辑，做技术决策前值得先读一遍"
     }
   ],
-  "closing": "今天值得看的是别人亲手拆开的系统和亲手踩过的坑，而不是又一轮模型发布。",
-  "date": "2026-11-04",
-  "generated_at": "2026-11-04T10:37:51+08:00",
+  "closing": "今天值得花时间的是安全与工程债这两条硬内容，成长部分挑一条对照着改。",
+  "date": "2026-11-05",
+  "generated_at": "2026-11-05T10:42:08+08:00",
   "weather": {
     "city": "嘉定区",
     "region": "上海市, 中国",
-    "desc": "强阵雨",
-    "tmax": 19,
-    "tmin": 15,
-    "rain": 100
+    "desc": "小毛毛雨",
+    "tmax": 20,
+    "tmin": 13,
+    "rain": 1
   },
   "image": {
-    "title": "泛舟如画秋林",
-    "copyright": "五彩落羽杉间划船的人们，宣城，安徽省，中国 (© Jackal Pan/Getty Images)",
-    "url": "https://www.bing.com/th?id=OHR.AutumnChina_ZH-CN7665959692_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "title": "向山巅再迈一步",
+    "copyright": "石墙边的木制翻越梯，黑岩，湖区，英格兰 (© Alex Treadway/Getty Images)",
+    "url": "https://www.bing.com/th?id=OHR.StileCrossing_ZH-CN9811465935_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
     "page": "https://www.bing.com"
   }
 }
