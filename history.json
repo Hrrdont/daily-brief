@@ -910,5 +910,53 @@
       "url": "https://www.bing.com/th?id=OHR.StileCrossing_ZH-CN9811465935_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "page": "https://www.bing.com"
     }
+  },
+  {
+    "hot": [
+      {
+        "title": "Claude Code 会把你的邮箱地址发给访问的网站",
+        "url": "https://github.com/anthropics/claude-code/issues/107757",
+        "why": "如果你用 Claude Code 抓网页，先看这条隐私泄露的复现路径"
+      },
+      {
+        "title": "MS Paint 远程代码执行漏洞",
+        "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
+        "why": "连画图都能 RCE，值得看看攻击面到底怎么扩大的"
+      },
+      {
+        "title": "Kagi 上线 Search for everyone",
+        "url": "https://kagi.com/changelog#11820",
+        "why": "付费搜索向所有人开放，想换搜索引擎的人值得关注"
+      }
+    ],
+    "growth": [
+      {
+        "title": "科技爱好者周刊 418 期：如果科技停止在 21 世纪初",
+        "url": "http://www.ruanyifeng.com/blog/2026/11/weekly-issue-418.html",
+        "why": "用反事实推演看清哪些技术真在改变生活，不是鸡汤"
+      },
+      {
+        "title": "MacBook Pro (PROLED XDR) 首发体验",
+        "url": "https://sspai.com/post/118546",
+        "why": "硬件折腾党可看新屏幕与接口的实际取舍，判断值不值得换"
+      }
+    ],
+    "closing": "今天值得看的是隐私与攻击面，以及一次反事实的技术推演。",
+    "date": "2026-11-06",
+    "generated_at": "2026-11-06T10:45:43+08:00",
+    "weather": {
+      "city": "嘉定区",
+      "region": "上海市, 中国",
+      "desc": "阴",
+      "tmax": 19,
+      "tmin": 13,
+      "rain": 0
+    },
+    "image": {
+      "title": "穿越毛伊岛的绿色隧道",
+      "copyright": "竹林，皮皮维小径，哈莱亚卡拉国家公园，毛伊岛，夏威夷州，美国 (© MNStudio/Getty Images)",
+      "url": "https://www.bing.com/th?id=OHR.PipiwaiTrail_ZH-CN1811194311_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "page": "https://www.bing.com"
+    }
   }
 ]
