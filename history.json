@@ -958,5 +958,53 @@
       "url": "https://www.bing.com/th?id=OHR.PipiwaiTrail_ZH-CN1811194311_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "page": "https://www.bing.com"
     }
+  },
+  {
+    "hot": [
+      {
+        "title": "Libghostty 1.0：Mitchell Hashimoto 的终端模拟器库正式发布",
+        "url": "https://mitchellh.com/writing/libghostty-1-0",
+        "why": "做终端或想了解高性能渲染架构的人，这是难得的工程复盘"
+      },
+      {
+        "title": "用 Jev 让 Opus 当裁判：准确率不变，成本降到四分之一",
+        "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
+        "why": "想省钱又保质量的 LLM 评测方案，附真实业务数据"
+      },
+      {
+        "title": "Firecracker VM 逃逸：PwnEscape 第二部分",
+        "url": "https://pwn.ai/blog/firecracker-escape",
+        "why": "云多租户隔离的安全边界到底有多硬，看实战拆解"
+      }
+    ],
+    "growth": [
+      {
+        "title": "从 Linux 到维基百科：志愿者如何构建互联网",
+        "url": "https://www.solidot.org/story?sid=85820",
+        "why": "理解开源协作为何能跑赢公司制，有理论和案例支撑"
+      },
+      {
+        "title": "我参观了宇树工厂，反而更看好西方",
+        "url": "https://josef.cn/blog/unitree",
+        "why": "一手工厂观察，训练你从产线细节推断产业判断"
+      }
+    ],
+    "closing": "今天挑的是能动手验证的工程与协作样本，少看结论多看过程。",
+    "date": "2026-11-07",
+    "generated_at": "2026-11-07T10:17:40+08:00",
+    "weather": {
+      "city": "嘉定区",
+      "region": "上海市, 中国",
+      "desc": "阴",
+      "tmax": 19,
+      "tmin": 14,
+      "rain": 29
+    },
+    "image": {
+      "title": "归来的草原巨兽",
+      "copyright": "草原上的一头野牛，西奥多·罗斯福国家公园，北达科他州，美国 (© Tandem Stock/Adobe Stock)",
+      "url": "https://www.bing.com/th?id=OHR.DakotaBison_ZH-CN2302503868_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "page": "https://www.bing.com"
+    }
   }
 ]
