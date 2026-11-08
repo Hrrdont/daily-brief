@@ -1,48 +1,48 @@
 {
   "hot": [
     {
-      "title": "Libghostty 1.0：Mitchell Hashimoto 的终端模拟器库正式发布",
-      "url": "https://mitchellh.com/writing/libghostty-1-0",
-      "why": "做终端或想了解高性能渲染架构的人，这是难得的工程复盘"
+      "title": "微软研究院 AI Frontiers 团队解散",
+      "url": "https://hunch.net/?p=13764006",
+      "why": "看一线研究者如何复盘大厂研究组织的退场，比读公关稿真实。"
     },
     {
-      "title": "用 Jev 让 Opus 当裁判：准确率不变，成本降到四分之一",
-      "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
-      "why": "想省钱又保质量的 LLM 评测方案，附真实业务数据"
+      "title": "10 美元的 OpenStick 能跑什么家庭实验室",
+      "url": "https://blog.bosscher.ch/posts/openstick/",
+      "why": "极低预算折腾自托管服务的实操清单，硬件党可直接抄作业。"
     },
     {
-      "title": "Firecracker VM 逃逸：PwnEscape 第二部分",
-      "url": "https://pwn.ai/blog/firecracker-escape",
-      "why": "云多租户隔离的安全边界到底有多硬，看实战拆解"
+      "title": "用四个 2 拼出任意整数",
+      "url": "https://eli.thegreenplace.net/2025/making-any-integer-with-four-2s/",
+      "why": "一道能自己动手验证的数学构造题，读完可以立刻写代码试。"
     }
   ],
   "growth": [
     {
-      "title": "从 Linux 到维基百科：志愿者如何构建互联网",
-      "url": "https://www.solidot.org/story?sid=85820",
-      "why": "理解开源协作为何能跑赢公司制，有理论和案例支撑"
+      "title": "一个 05 后的个人数码编年史",
+      "url": "https://sspai.com/post/116750",
+      "why": "看同龄人怎么用具体设备记录成长，比空谈自律更有参照。"
     },
     {
-      "title": "我参观了宇树工厂，反而更看好西方",
-      "url": "https://josef.cn/blog/unitree",
-      "why": "一手工厂观察，训练你从产线细节推断产业判断"
+      "title": "GitHub 新 PR 概览页公开预览",
+      "url": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/",
+      "why": "改的是你每天要用的界面，顺手试一遍就知道值不值得改习惯。"
     }
   ],
-  "closing": "今天挑的是能动手验证的工程与协作样本，少看结论多看过程。",
-  "date": "2026-11-07",
-  "generated_at": "2026-11-07T10:17:40+08:00",
+  "closing": "今天值得花时间的是那些能亲手验证的东西：一台十美元的小机器、一道四个 2 的题、一个你天天点开的页面。",
+  "date": "2026-11-08",
+  "generated_at": "2026-11-08T09:45:05+08:00",
   "weather": {
     "city": "嘉定区",
     "region": "上海市, 中国",
-    "desc": "阴",
+    "desc": "阵雨",
     "tmax": 19,
     "tmin": 14,
-    "rain": 29
+    "rain": 100
   },
   "image": {
-    "title": "归来的草原巨兽",
-    "copyright": "草原上的一头野牛，西奥多·罗斯福国家公园，北达科他州，美国 (© Tandem Stock/Adobe Stock)",
-    "url": "https://www.bing.com/th?id=OHR.DakotaBison_ZH-CN2302503868_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "title": "光芒四射的节日",
+    "copyright": "排灯节灯笼，孟买，马哈拉施特拉邦，印度 (© Dinodia Photo/Getty Images)",
+    "url": "https://www.bing.com/th?id=OHR.DiwaliLamps_ZH-CN2462894749_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
     "page": "https://www.bing.com"
   }
 }

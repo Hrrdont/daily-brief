@@ -1006,5 +1006,53 @@
       "url": "https://www.bing.com/th?id=OHR.DakotaBison_ZH-CN2302503868_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "page": "https://www.bing.com"
     }
+  },
+  {
+    "hot": [
+      {
+        "title": "微软研究院 AI Frontiers 团队解散",
+        "url": "https://hunch.net/?p=13764006",
+        "why": "看一线研究者如何复盘大厂研究组织的退场，比读公关稿真实。"
+      },
+      {
+        "title": "10 美元的 OpenStick 能跑什么家庭实验室",
+        "url": "https://blog.bosscher.ch/posts/openstick/",
+        "why": "极低预算折腾自托管服务的实操清单，硬件党可直接抄作业。"
+      },
+      {
+        "title": "用四个 2 拼出任意整数",
+        "url": "https://eli.thegreenplace.net/2025/making-any-integer-with-four-2s/",
+        "why": "一道能自己动手验证的数学构造题，读完可以立刻写代码试。"
+      }
+    ],
+    "growth": [
+      {
+        "title": "一个 05 后的个人数码编年史",
+        "url": "https://sspai.com/post/116750",
+        "why": "看同龄人怎么用具体设备记录成长，比空谈自律更有参照。"
+      },
+      {
+        "title": "GitHub 新 PR 概览页公开预览",
+        "url": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/",
+        "why": "改的是你每天要用的界面，顺手试一遍就知道值不值得改习惯。"
+      }
+    ],
+    "closing": "今天值得花时间的是那些能亲手验证的东西：一台十美元的小机器、一道四个 2 的题、一个你天天点开的页面。",
+    "date": "2026-11-08",
+    "generated_at": "2026-11-08T09:45:05+08:00",
+    "weather": {
+      "city": "嘉定区",
+      "region": "上海市, 中国",
+      "desc": "阵雨",
+      "tmax": 19,
+      "tmin": 14,
+      "rain": 100
+    },
+    "image": {
+      "title": "光芒四射的节日",
+      "copyright": "排灯节灯笼，孟买，马哈拉施特拉邦，印度 (© Dinodia Photo/Getty Images)",
+      "url": "https://www.bing.com/th?id=OHR.DiwaliLamps_ZH-CN2462894749_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "page": "https://www.bing.com"
+    }
   }
 ]
