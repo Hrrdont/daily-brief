@@ -1054,5 +1054,53 @@
       "url": "https://www.bing.com/th?id=OHR.DiwaliLamps_ZH-CN2462894749_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "page": "https://www.bing.com"
     }
+  },
+  {
+    "hot": [
+      {
+        "title": "KetchUp：用 Rust 和 WebGPU 打造的开源 SketchUp 替代品",
+        "url": "https://ketchup3d.github.io/app/",
+        "why": "浏览器里跑 3D 建模，Rust+WebGPU 技术栈值得拆开看"
+      },
+      {
+        "title": "Dux：免费开源的 Wayland 桌面 shell，自带文件管理器与主题系统",
+        "url": "https://duxlabs.dev/",
+        "why": "想折腾 Linux 桌面又嫌 GNOME 太重，这是新选项"
+      },
+      {
+        "title": "Herb Sutter：当语言创造者与语言所有者强烈分歧 [PDF]",
+        "url": "https://isocpp.org/files/papers/P4454R0.pdf",
+        "why": "C++ 治理之争的一手材料，比二手评论靠谱"
+      }
+    ],
+    "growth": [
+      {
+        "title": "当你扒开国产软件代码，就会发现人性难以想象",
+        "url": "https://b23.tv/BV1x1WE6ZE4G",
+        "why": "跟着看真实代码里的坑，比读十条编程规范有用"
+      },
+      {
+        "title": "苹果产品那些不够颠覆，却值得被学习的细节",
+        "url": "https://sspai.com/post/118114",
+        "why": "拆解具体交互取舍，练产品审美的可验证样本"
+      }
+    ],
+    "closing": "今天挑的是能动手拆的技术与能对照练的细节，其余略过。",
+    "date": "2026-11-09",
+    "generated_at": "2026-11-09T09:53:10+08:00",
+    "weather": {
+      "city": "嘉定区",
+      "region": "上海市, 中国",
+      "desc": "小毛毛雨",
+      "tmax": 15,
+      "tmin": 8,
+      "rain": 69
+    },
+    "image": {
+      "title": "艺术与韵律交汇之地",
+      "copyright": "特里亚纳历史街区，塞维利亚，西班牙 (© Andrzej Rostek/Getty Images)",
+      "url": "https://www.bing.com/th?id=OHR.TrianaSpain_ZH-CN6329291776_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "page": "https://www.bing.com"
+    }
   }
 ]
