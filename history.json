@@ -1102,5 +1102,53 @@
       "url": "https://www.bing.com/th?id=OHR.TrianaSpain_ZH-CN6329291776_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "page": "https://www.bing.com"
     }
+  },
+  {
+    "hot": [
+      {
+        "title": "Anthropic 发布 Claude Fable 5.2 与 Mythos 5.2",
+        "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+        "why": "模型版本号跳跃，值得看官方说明改了什么、影响哪些用法"
+      },
+      {
+        "title": "e-means：用十分之一 epoch 超越 k-means",
+        "url": "https://e-means.github.io/",
+        "why": "聚类是常用工具，若真能省训练轮次，值得看方法与适用边界"
+      },
+      {
+        "title": "USPS 开放官方 ZIP Code 边界多边形",
+        "url": "https://postalpro.usps.com/zcb",
+        "why": "做地理数据或地址相关项目的人，这是权威可用的底层数据源"
+      }
+    ],
+    "growth": [
+      {
+        "title": "Foldable Flight：最好的纸飞机教程",
+        "url": "https://www.foldableflight.com",
+        "why": "动手折一架并测飞行距离，是能验证的手工与空气动力学练习"
+      },
+      {
+        "title": "派早报：火山引擎发布 Seedream 5.5，苹果用仿真训练人形机器人",
+        "url": "https://sspai.com/post/118854",
+        "why": "两条都是可追踪的技术进展，看仿真训练如何落地机器人"
+      }
+    ],
+    "closing": "今天挑的是能动手验证和能看清技术走向的内容，少而实。",
+    "date": "2026-11-10",
+    "generated_at": "2026-11-10T12:15:55+08:00",
+    "weather": {
+      "city": "嘉定区",
+      "region": "上海市, 中国",
+      "desc": "阴",
+      "tmax": 13,
+      "tmin": 6,
+      "rain": 0
+    },
+    "image": {
+      "title": "惬意放松，尽享海岛时光",
+      "copyright": "玫瑰岛航拍图，巴哈马 (© Abstract Aerial Art/Getty Images)",
+      "url": "https://www.bing.com/th?id=OHR.RoseIsland_ZH-CN6477140814_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "page": "https://www.bing.com"
+    }
   }
 ]
