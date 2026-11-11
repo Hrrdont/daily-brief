@@ -1150,5 +1150,53 @@
       "url": "https://www.bing.com/th?id=OHR.RoseIsland_ZH-CN6477140814_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "page": "https://www.bing.com"
     }
+  },
+  {
+    "hot": [
+      {
+        "title": "智能家居设备应能离线工作",
+        "url": "https://docodethatmatters.com/home-automation-overnight-success/",
+        "why": "拆解本地自动化如何摆脱云依赖，折腾家庭实验室的直接参考"
+      },
+      {
+        "title": "陶哲轩：六项数学基本功",
+        "url": "https://teorth.github.io/tao-web/six-math-essentials.html",
+        "why": "大师亲自划重点，比刷题更能校准该练什么"
+      },
+      {
+        "title": ".name 域名被祖父条款保留",
+        "url": "https://neil.fraser.name/news/2026/11/10/",
+        "why": "冷门域名历史与规则漏洞，玩域名和协议的人会喜欢"
+      }
+    ],
+    "growth": [
+      {
+        "title": "科技爱好者周刊 417 期：不要让 AI 代表你",
+        "url": "http://www.ruanyifeng.com/blog/2026/10/weekly-issue-417.html",
+        "why": "给 AI 代写划边界，可对照自己哪些输出该亲手做"
+      },
+      {
+        "title": "社区速递 165：透明工牌与十月购物清单",
+        "url": "https://sspai.com/post/118861",
+        "why": "真实使用清单，能抄到具体的工具与消费决策"
+      }
+    ],
+    "closing": "今天值得花时间的是：把自动化握在自己手里，把表达留给自己。",
+    "date": "2026-11-11",
+    "generated_at": "2026-11-11T10:08:52+08:00",
+    "weather": {
+      "city": "嘉定区",
+      "region": "上海市, 中国",
+      "desc": "阴",
+      "tmax": 17,
+      "tmin": 5,
+      "rain": 0
+    },
+    "image": {
+      "title": "奇妙纷呈的森林",
+      "copyright": "大西洋森林，巴西 (© FG Trade/Getty Images)",
+      "url": "https://www.bing.com/th?id=OHR.Atlantica_ZH-CN6593995386_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "page": "https://www.bing.com"
+    }
   }
 ]
