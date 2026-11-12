@@ -1198,5 +1198,53 @@
       "url": "https://www.bing.com/th?id=OHR.Atlantica_ZH-CN6593995386_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "page": "https://www.bing.com"
     }
+  },
+  {
+    "hot": [
+      {
+        "title": "93% 的颜料泼溅图案都是合法的 Perl 程序",
+        "url": "https://www.mcmillen.dev/sigbovik/",
+        "why": "把随机泼墨当成代码来解析，看完你会重新理解什么叫语言的容错性。"
+      },
+      {
+        "title": "Tim Peters 去世",
+        "url": "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028",
+        "why": "他写的 Timsort 和 Python 之禅，今天还在你每天运行的代码里。"
+      },
+      {
+        "title": "AWS emulator：本地模拟 AWS 的开源项目",
+        "url": "https://github.com/aws/aws-emulator",
+        "why": "想在本地跑通云服务逻辑又不想烧钱，这类工具值得先看一眼。"
+      }
+    ],
+    "growth": [
+      {
+        "title": "Lock Your GitHub Actions",
+        "url": "https://hugovk.dev/blog/2026/lock-github-actions/",
+        "why": "供应链攻击最常见的入口就是没锁版本的 action，十分钟能改完。"
+      },
+      {
+        "title": "科技爱好者周刊 418 期：如果科技停止在 21 世纪初",
+        "url": "http://www.ruanyifeng.com/blog/2026/11/weekly-issue-418.html",
+        "why": "一个反事实推演，帮你判断哪些技术是真拐点、哪些只是惯性。"
+      }
+    ],
+    "closing": "今天值得花时间的是：理解一门语言的荒诞边界，也顺手把自己的 CI 锁好。",
+    "date": "2026-11-12",
+    "generated_at": "2026-11-12T11:17:45+08:00",
+    "weather": {
+      "city": "嘉定区",
+      "region": "上海市, 中国",
+      "desc": "毛毛雨",
+      "tmax": 18,
+      "tmin": 12,
+      "rain": 97
+    },
+    "image": {
+      "title": "没有建筑师的建筑杰作",
+      "copyright": "北窗，拱门国家公园，莫阿布，犹他州，美国 (© lightphoto/Getty Images)",
+      "url": "https://www.bing.com/th?id=OHR.NorthWindow_ZH-CN6734579353_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "page": "https://www.bing.com"
+    }
   }
 ]
