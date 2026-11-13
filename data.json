@@ -1,48 +1,41 @@
 {
   "hot": [
     {
-      "title": "93% 的颜料泼溅图案都是合法的 Perl 程序",
-      "url": "https://www.mcmillen.dev/sigbovik/",
-      "why": "把随机泼墨当成代码来解析，看完你会重新理解什么叫语言的容错性。"
+      "title": "黄仁勋辞去英伟达总裁、CEO及董事职务，CFO Colette Kress 任临时CEO",
+      "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
+      "why": "全球最重要芯片公司的权力交接，影响AI算力供给与行业走向"
     },
     {
-      "title": "Tim Peters 去世",
-      "url": "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028",
-      "why": "他写的 Timsort 和 Python 之禅，今天还在你每天运行的代码里。"
+      "title": "Rust 1.100 发布",
+      "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
+      "why": "百版里程碑，想跟进系统编程语言演进看官方发布说明最准"
     },
     {
-      "title": "AWS emulator：本地模拟 AWS 的开源项目",
-      "url": "https://github.com/aws/aws-emulator",
-      "why": "想在本地跑通云服务逻辑又不想烧钱，这类工具值得先看一眼。"
+      "title": "Show HN：300 美元的绣花机要订阅才能用，作者自己写了个开源 App",
+      "url": "https://github.com/simpsoka/zigzag",
+      "why": "硬件被订阅制锁死的典型反制案例，可复用的逆向与替代思路"
     }
   ],
   "growth": [
     {
-      "title": "Lock Your GitHub Actions",
-      "url": "https://hugovk.dev/blog/2026/lock-github-actions/",
-      "why": "供应链攻击最常见的入口就是没锁版本的 action，十分钟能改完。"
+      "title": "BMI 误判数百万人肥胖：84 万人数据研究",
+      "url": "https://www.solidot.org/story?sid=85871",
+      "why": "教你用可验证的数据质疑一个被当成常识的指标，而非听鸡汤"
     },
     {
-      "title": "科技爱好者周刊 418 期：如果科技停止在 21 世纪初",
-      "url": "http://www.ruanyifeng.com/blog/2026/11/weekly-issue-418.html",
-      "why": "一个反事实推演，帮你判断哪些技术是真拐点、哪些只是惯性。"
+      "title": "科技爱好者周刊 419 期：机房来了，写字楼走了",
+      "url": "http://www.ruanyifeng.com/blog/2026/11/weekly-issue-419.html",
+      "why": "一周技术与社会观察合集，适合低成本扫盲并挑出深读线索"
     }
   ],
-  "closing": "今天值得花时间的是：理解一门语言的荒诞边界，也顺手把自己的 CI 锁好。",
-  "date": "2026-11-12",
-  "generated_at": "2026-11-12T11:17:45+08:00",
-  "weather": {
-    "city": "嘉定区",
-    "region": "上海市, 中国",
-    "desc": "毛毛雨",
-    "tmax": 18,
-    "tmin": 12,
-    "rain": 97
-  },
+  "closing": "今天真正的信号是英伟达换帅与 Rust 百版，其余时间留给能动手验证的东西。",
+  "date": "2026-11-13",
+  "generated_at": "2026-11-13T10:51:01+08:00",
+  "weather": null,
   "image": {
-    "title": "没有建筑师的建筑杰作",
-    "copyright": "北窗，拱门国家公园，莫阿布，犹他州，美国 (© lightphoto/Getty Images)",
-    "url": "https://www.bing.com/th?id=OHR.NorthWindow_ZH-CN6734579353_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "title": "冰下秘境",
+    "copyright": "亚伯拉罕湖，艾伯塔省，加拿大 (© Guang Cao/Getty Images)",
+    "url": "https://www.bing.com/th?id=OHR.AbrahamCanada_ZH-CN0344365912_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
     "page": "https://www.bing.com"
   }
 }
