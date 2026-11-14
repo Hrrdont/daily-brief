@@ -1287,5 +1287,48 @@
       "url": "https://www.bing.com/th?id=OHR.AbrahamCanada_ZH-CN0344365912_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "page": "https://www.bing.com"
     }
+  },
+  {
+    "hot": [
+      {
+        "title": "FAA 发布全国航班停飞令，随后解除",
+        "url": "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247",
+        "why": "美国全国航班一度停飞，是罕见的航空系统级事件，值得了解原因"
+      },
+      {
+        "title": "Terminal 边框不花一个 cell 的实现",
+        "url": "https://www.joshka.net/cell-borders/",
+        "why": "终端 UI 绘制的细节技巧，做 TUI 或命令行工具的人能直接借鉴"
+      },
+      {
+        "title": "3Com 后来怎么了",
+        "url": "https://dfarq.homeip.net/what-happened-to-3com/",
+        "why": "网络设备老牌厂商兴衰史，理解硬件行业周期的一面镜子"
+      }
+    ],
+    "growth": [
+      {
+        "title": "研究生如何用 AI 辅助完成一篇综述：我的科研写作工具与实践经验",
+        "url": "https://sspai.com/post/118153",
+        "why": "有具体工具和流程，不是空谈，写长文或做调研都能照搬"
+      }
+    ],
+    "closing": "今天值得看的是航空系统级事件和终端绘制的硬核细节，成长方面只有一篇可验证的 AI 写作实践。",
+    "date": "2026-11-14",
+    "generated_at": "2026-11-14T10:38:15+08:00",
+    "weather": {
+      "city": "嘉定区",
+      "region": "上海市, 中国",
+      "desc": "阵雨",
+      "tmax": 21,
+      "tmin": 16,
+      "rain": 100
+    },
+    "image": {
+      "title": "唯有向上发展",
+      "copyright": "中国香港维多利亚港 (© Juan Romero/Cavan Images)",
+      "url": "https://www.bing.com/th?id=OHR.BlueHK_ZH-CN1382345392_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "page": "https://www.bing.com"
+    }
   }
 ]

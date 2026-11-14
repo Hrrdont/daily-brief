@@ -1,41 +1,43 @@
 {
   "hot": [
     {
-      "title": "黄仁勋辞去英伟达总裁、CEO及董事职务，CFO Colette Kress 任临时CEO",
-      "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
-      "why": "全球最重要芯片公司的权力交接，影响AI算力供给与行业走向"
+      "title": "FAA 发布全国航班停飞令，随后解除",
+      "url": "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247",
+      "why": "美国全国航班一度停飞，是罕见的航空系统级事件，值得了解原因"
     },
     {
-      "title": "Rust 1.100 发布",
-      "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
-      "why": "百版里程碑，想跟进系统编程语言演进看官方发布说明最准"
+      "title": "Terminal 边框不花一个 cell 的实现",
+      "url": "https://www.joshka.net/cell-borders/",
+      "why": "终端 UI 绘制的细节技巧，做 TUI 或命令行工具的人能直接借鉴"
     },
     {
-      "title": "Show HN：300 美元的绣花机要订阅才能用，作者自己写了个开源 App",
-      "url": "https://github.com/simpsoka/zigzag",
-      "why": "硬件被订阅制锁死的典型反制案例，可复用的逆向与替代思路"
+      "title": "3Com 后来怎么了",
+      "url": "https://dfarq.homeip.net/what-happened-to-3com/",
+      "why": "网络设备老牌厂商兴衰史，理解硬件行业周期的一面镜子"
     }
   ],
   "growth": [
     {
-      "title": "BMI 误判数百万人肥胖：84 万人数据研究",
-      "url": "https://www.solidot.org/story?sid=85871",
-      "why": "教你用可验证的数据质疑一个被当成常识的指标，而非听鸡汤"
-    },
-    {
-      "title": "科技爱好者周刊 419 期：机房来了，写字楼走了",
-      "url": "http://www.ruanyifeng.com/blog/2026/11/weekly-issue-419.html",
-      "why": "一周技术与社会观察合集，适合低成本扫盲并挑出深读线索"
+      "title": "研究生如何用 AI 辅助完成一篇综述：我的科研写作工具与实践经验",
+      "url": "https://sspai.com/post/118153",
+      "why": "有具体工具和流程，不是空谈，写长文或做调研都能照搬"
     }
   ],
-  "closing": "今天真正的信号是英伟达换帅与 Rust 百版，其余时间留给能动手验证的东西。",
-  "date": "2026-11-13",
-  "generated_at": "2026-11-13T10:51:01+08:00",
-  "weather": null,
+  "closing": "今天值得看的是航空系统级事件和终端绘制的硬核细节，成长方面只有一篇可验证的 AI 写作实践。",
+  "date": "2026-11-14",
+  "generated_at": "2026-11-14T10:38:15+08:00",
+  "weather": {
+    "city": "嘉定区",
+    "region": "上海市, 中国",
+    "desc": "阵雨",
+    "tmax": 21,
+    "tmin": 16,
+    "rain": 100
+  },
   "image": {
-    "title": "冰下秘境",
-    "copyright": "亚伯拉罕湖，艾伯塔省，加拿大 (© Guang Cao/Getty Images)",
-    "url": "https://www.bing.com/th?id=OHR.AbrahamCanada_ZH-CN0344365912_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "title": "唯有向上发展",
+    "copyright": "中国香港维多利亚港 (© Juan Romero/Cavan Images)",
+    "url": "https://www.bing.com/th?id=OHR.BlueHK_ZH-CN1382345392_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
     "page": "https://www.bing.com"
   }
 }
