@@ -1,48 +1,48 @@
 {
   "hot": [
     {
-      "title": "Lovable 应用泄露护照信息与 20 多万条私信",
-      "url": "https://www.crissyfield.de/research/lovable-en/",
-      "why": "AI 建站工具把用户数据裸奔，用这类工具前值得先看这份实测"
+      "title": "Protomaps：自托管地图瓦片已经变得又便宜又简单",
+      "url": "https://bruceroettgers.eu/blog/protomaps/",
+      "why": "想给项目加地图又不想被API账单绑架，这篇给了低成本自托管路径。"
     },
     {
-      "title": "SpaceX 星舰第 15 次试飞成功被“筷子”夹住回收",
-      "url": "https://www.spacex.com/launches/starship-flight-15",
-      "why": "可复用重型火箭再进一步，关注航天与工程的人别错过现场细节"
+      "title": "旧 Bitly 短链正被劫持",
+      "url": "https://ransomnews.com/burger-king-tweet-bitly-link-hijack-2026/",
+      "why": "短链会过期易主，你文档和旧推文里的链接可能已指向别人。"
     },
     {
-      "title": "英伟达被指通过循环融资交易刻意维持 GPU 高价",
-      "url": "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html",
-      "why": "买卡前先看这套利益链分析，理解 GPU 定价为何居高不下"
+      "title": "Tor 项目在持续 DDoS 攻击下发布快速响应防御修复",
+      "url": "https://forum.torproject.org/t/security-release-0-4-9-17/22454",
+      "why": "看真实抗压场景下匿名网络如何权衡可用性与安全，细节扎实。"
     }
   ],
   "growth": [
     {
-      "title": "沃兹在造出 Apple I 之前是怎么写出 BASIC 的？",
-      "url": "https://retrocomputing.stackexchange.com/questions/17957",
-      "why": "纯手工时代的工程思路，对今天写代码的人仍有启发"
+      "title": "Aerial Switcher：给 Mac 的航拍壁纸排个时间表",
+      "url": "https://sspai.com/post/118392",
+      "why": "小工具思路可复用：把现成素材按时间编排，做出自己的仪式感。"
     },
     {
-      "title": "软件职位名称的家族树",
-      "url": "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/",
-      "why": "帮你理清岗位命名乱象，看清自己职业路径的来龙去脉"
+      "title": "Preserving 30 years of Salon journalism",
+      "url": "https://blog.archive.org/2026/11/12/preserving-30-years-of-salon-journalism/",
+      "why": "看别人怎么系统性地保存有价值的东西，可迁移到个人知识归档。"
     }
   ],
-  "closing": "今天值得看的是数据安全、硬件成本与工程史三条线，少刷八卦多读细节。",
-  "date": "2026-11-15",
-  "generated_at": "2026-11-15T10:04:18+08:00",
+  "closing": "今天挑的是能动手验证的工程与归档实践，少看热闹，多留可复用的东西。",
+  "date": "2026-11-16",
+  "generated_at": "2026-11-16T10:20:43+08:00",
   "weather": {
     "city": "嘉定区",
     "region": "上海市, 中国",
-    "desc": "小毛毛雨",
-    "tmax": 19,
-    "tmin": 13,
-    "rain": 8
+    "desc": "阴",
+    "tmax": 18,
+    "tmin": 12,
+    "rain": 0
   },
   "image": {
-    "title": "霜染枝叶",
-    "copyright": "覆霜的红叶杜鹃 (© avoferten/Shutterstock)",
-    "url": "https://www.bing.com/th?id=OHR.FirstFrost_ZH-CN2219029557_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "title": "历经岁月，屹立不倒",
+    "copyright": "美国新墨西哥州吉拉悬崖民居国家纪念地 (© Chiara Salvadori/Getty Images)",
+    "url": "https://www.bing.com/th?id=OHR.GilaCliff_ZH-CN2393001519_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
     "page": "https://www.bing.com"
   }
 }
