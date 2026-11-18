@@ -2,54 +2,6 @@
   {
     "hot": [
       {
-        "title": "混合推理智能体：在潜空间思考、用文本行动的 LLM Agent",
-        "url": "https://arxiv.org/abs/2610.18861",
-        "why": "Agent 设计的新范式，把推理搬进潜空间，值得看框架思路"
-      },
-      {
-        "title": "Linux 内核开发者提交代码不再需要声明是否用了 AI",
-        "url": "https://www.solidot.org/story?sid=85641",
-        "why": "影响所有内核贡献者的流程变更，开源协作规则在变"
-      },
-      {
-        "title": "基于 6502 CPU 的笔记本电脑",
-        "url": "https://www.maddox.pro/?p=448",
-        "why": "老芯片做整机，硬件折腾党的快乐，看怎么把复古玩成真机"
-      }
-    ],
-    "growth": [
-      {
-        "title": "现在正是学数学的最好时机（3Blue1Brown）",
-        "url": "https://www.youtube.com/watch?v=LKrwhjOI8Nc",
-        "why": "用可视化讲清为什么数学值得投入，不是鸡汤是论证"
-      },
-      {
-        "title": "Jev 决策模型有什么用（科技爱好者周刊 414 期）",
-        "url": "http://www.ruanyifeng.com/blog/2026/10/weekly-issue-414.html",
-        "why": "一个可套用的决策框架，能直接拿来做选择练习"
-      }
-    ],
-    "closing": "今天挑的是能动手、能验证的东西，其余热闹看看就好。",
-    "date": "2026-10-19",
-    "generated_at": "2026-10-19T11:02:11+08:00",
-    "weather": {
-      "city": "嘉定区",
-      "region": "上海市, 中国",
-      "desc": "毛毛雨",
-      "tmax": 25,
-      "tmin": 20,
-      "rain": 94
-    },
-    "image": {
-      "title": "水上通衢",
-      "copyright": "大运河，威尼斯，意大利 (© Juan Romero/Cavan Images)",
-      "url": "https://www.bing.com/th?id=OHR.VeniceSunrise_ZH-CN5251815339_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "page": "https://www.bing.com"
-    }
-  },
-  {
-    "hot": [
-      {
         "title": "Wine 移植到 OpenBSD",
         "url": "https://marc.info/?l=openbsd-ports&m=179236125692175",
         "why": "在 OpenBSD 上跑 Windows 程序，折腾系统兼容层的人值得看"
@@ -1419,6 +1371,54 @@
       "title": "走进广阔的大自然",
       "copyright": "雪松林步道，冰川国家公园，蒙大拿州，美国 (© DBushue Photography/Getty Images)",
       "url": "https://www.bing.com/th?id=OHR.TrailCedars_ZH-CN2670680285_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "page": "https://www.bing.com"
+    }
+  },
+  {
+    "hot": [
+      {
+        "title": "Java4Shell：OpenJDK 处理 Base64 时的 RCE 漏洞",
+        "url": "https://calif.io/java4shell/",
+        "why": "跑 Java 服务的今天先看，处理 Base64 就可能被打穿，影响面极大。"
+      },
+      {
+        "title": "GPT-6.2 Astra 与 Sol 发布",
+        "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+        "why": "新模型能力边界在哪，直接决定你手上 AI 工作流要不要重写。"
+      },
+      {
+        "title": "Quad9 退出法国：煤矿里的金丝雀",
+        "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
+        "why": "DNS 被政治干预的先例，关心网络自由与自建解析的人都该看。"
+      }
+    ],
+    "growth": [
+      {
+        "title": "小纸 Pico：4.7 英寸墨水屏开发板",
+        "url": "https://sspai.com/post/118975",
+        "why": "能自己改界面的墨水屏阅读器，硬件折腾和读书需求一次满足。"
+      },
+      {
+        "title": "科技爱好者周刊 418 期：如果科技停止在 21 世纪初",
+        "url": "http://www.ruanyifeng.com/blog/2026/11/weekly-issue-418.html",
+        "why": "换个假设看技术演进，帮你判断哪些进步其实是偶然。"
+      }
+    ],
+    "closing": "今天先补 Java 那个洞，再想想你的 AI 流程要不要跟着新模型改。",
+    "date": "2026-11-18",
+    "generated_at": "2026-11-18T11:48:38+08:00",
+    "weather": {
+      "city": "嘉定区",
+      "region": "上海市, 中国",
+      "desc": "毛毛雨",
+      "tmax": 15,
+      "tmin": 7,
+      "rain": 82
+    },
+    "image": {
+      "title": "从黄昏狩猎到黎明",
+      "copyright": "一对仓鸮 (© Zahoor Salmi/Getty Images)",
+      "url": "https://www.bing.com/th?id=OHR.BarnOwlsUnite_ZH-CN2930153291_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "page": "https://www.bing.com"
     }
   }

@@ -1,48 +1,48 @@
 {
   "hot": [
     {
-      "title": "卡内基梅隆大学把计算机课程免费搬上 YouTube",
-      "url": "https://www.cs.cmu.edu/learn/",
-      "why": "顶级 CS 课程零门槛，照着学比刷短视频强"
+      "title": "Java4Shell：OpenJDK 处理 Base64 时的 RCE 漏洞",
+      "url": "https://calif.io/java4shell/",
+      "why": "跑 Java 服务的今天先看，处理 Base64 就可能被打穿，影响面极大。"
     },
     {
-      "title": "Windows 11 正在收集你使用哪些编码 Agent 和开发者工具的数据",
-      "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
-      "why": "开发者隐私边界又退一步，值得查查自己机器"
+      "title": "GPT-6.2 Astra 与 Sol 发布",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+      "why": "新模型能力边界在哪，直接决定你手上 AI 工作流要不要重写。"
     },
     {
-      "title": "Optimizely 被入侵，向 Zoom、GitLab 等站点投放恶意代码",
-      "url": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
-      "why": "第三方脚本是供应链软肋，前端人该警惕"
+      "title": "Quad9 退出法国：煤矿里的金丝雀",
+      "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
+      "why": "DNS 被政治干预的先例，关心网络自由与自建解析的人都该看。"
     }
   ],
   "growth": [
     {
-      "title": "不把凭证交给编码 Agent 也能跑起来",
-      "url": "https://blog.antonio.cx/running-agents-with-lend",
-      "why": "给 Agent 授权前先看这套隔离思路，实用不空谈"
+      "title": "小纸 Pico：4.7 英寸墨水屏开发板",
+      "url": "https://sspai.com/post/118975",
+      "why": "能自己改界面的墨水屏阅读器，硬件折腾和读书需求一次满足。"
     },
     {
-      "title": "在国内折腾 Linux 打游戏的二三事",
-      "url": "https://sspai.com/post/118442",
-      "why": "真实踩坑记录，想脱离 Windows 的人可对照验证"
+      "title": "科技爱好者周刊 418 期：如果科技停止在 21 世纪初",
+      "url": "http://www.ruanyifeng.com/blog/2026/11/weekly-issue-418.html",
+      "why": "换个假设看技术演进，帮你判断哪些进步其实是偶然。"
     }
   ],
-  "closing": "今天值得花时间的是：学一门免费硬课，顺手收紧自己的隐私和凭证边界。",
-  "date": "2026-11-17",
-  "generated_at": "2026-11-17T12:43:42+08:00",
+  "closing": "今天先补 Java 那个洞，再想想你的 AI 流程要不要跟着新模型改。",
+  "date": "2026-11-18",
+  "generated_at": "2026-11-18T11:48:38+08:00",
   "weather": {
     "city": "嘉定区",
     "region": "上海市, 中国",
-    "desc": "阴",
-    "tmax": 18,
-    "tmin": 13,
-    "rain": 22
+    "desc": "毛毛雨",
+    "tmax": 15,
+    "tmin": 7,
+    "rain": 82
   },
   "image": {
-    "title": "走进广阔的大自然",
-    "copyright": "雪松林步道，冰川国家公园，蒙大拿州，美国 (© DBushue Photography/Getty Images)",
-    "url": "https://www.bing.com/th?id=OHR.TrailCedars_ZH-CN2670680285_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "title": "从黄昏狩猎到黎明",
+    "copyright": "一对仓鸮 (© Zahoor Salmi/Getty Images)",
+    "url": "https://www.bing.com/th?id=OHR.BarnOwlsUnite_ZH-CN2930153291_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
     "page": "https://www.bing.com"
   }
 }
