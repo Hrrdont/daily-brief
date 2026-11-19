@@ -1,48 +1,48 @@
 {
   "hot": [
     {
-      "title": "Java4Shell：OpenJDK 处理 Base64 时的 RCE 漏洞",
-      "url": "https://calif.io/java4shell/",
-      "why": "跑 Java 服务的今天先看，处理 Base64 就可能被打穿，影响面极大。"
+      "title": "Nginx 曝未认证远程代码执行漏洞",
+      "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+      "why": "跑 Nginx 的人今天就得看，HTTP/2 未认证 RCE 不是小事"
     },
     {
-      "title": "GPT-6.2 Astra 与 Sol 发布",
-      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
-      "why": "新模型能力边界在哪，直接决定你手上 AI 工作流要不要重写。"
+      "title": "Gemini 4 Neon 发布",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "why": "新旗舰模型上线，值得亲手跑几个任务判断真实水平"
     },
     {
-      "title": "Quad9 退出法国：煤矿里的金丝雀",
-      "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
-      "why": "DNS 被政治干预的先例，关心网络自由与自建解析的人都该看。"
+      "title": "Unreal Tournament 2004 搬进浏览器",
+      "url": "https://ut2004.dev/",
+      "why": "老游戏靠浏览器重生的工程活，折腾 Web 技术的人会喜欢"
     }
   ],
   "growth": [
     {
-      "title": "小纸 Pico：4.7 英寸墨水屏开发板",
-      "url": "https://sspai.com/post/118975",
-      "why": "能自己改界面的墨水屏阅读器，硬件折腾和读书需求一次满足。"
+      "title": "剑桥词典 2026 年度词是“人”",
+      "url": "https://www.solidot.org/story?sid=85927",
+      "why": "AI 模糊人机边界时，这个词帮你重新想清楚自己在做什么"
     },
     {
-      "title": "科技爱好者周刊 418 期：如果科技停止在 21 世纪初",
-      "url": "http://www.ruanyifeng.com/blog/2026/11/weekly-issue-418.html",
-      "why": "换个假设看技术演进，帮你判断哪些进步其实是偶然。"
+      "title": "10 月音乐精选：必听这 7 张新专辑",
+      "url": "https://sspai.com/post/118985",
+      "why": "有具体专辑可听，比空谈审美更能练出耳朵的判断力"
     }
   ],
-  "closing": "今天先补 Java 那个洞，再想想你的 AI 流程要不要跟着新模型改。",
-  "date": "2026-11-18",
-  "generated_at": "2026-11-18T11:48:38+08:00",
+  "closing": "今天先补 Nginx 的洞，再花一小时亲手验证新模型，别只看评测。",
+  "date": "2026-11-19",
+  "generated_at": "2026-11-19T11:46:59+08:00",
   "weather": {
     "city": "嘉定区",
     "region": "上海市, 中国",
-    "desc": "毛毛雨",
-    "tmax": 15,
-    "tmin": 7,
-    "rain": 82
+    "desc": "阴",
+    "tmax": 12,
+    "tmin": 3,
+    "rain": 0
   },
   "image": {
-    "title": "从黄昏狩猎到黎明",
-    "copyright": "一对仓鸮 (© Zahoor Salmi/Getty Images)",
-    "url": "https://www.bing.com/th?id=OHR.BarnOwlsUnite_ZH-CN2930153291_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "title": "思想在此成形",
+    "copyright": "雕塑《知识之躯》，由豪梅·普兰萨创作，位于德国法兰克福的法兰克福歌德大学 (© Todamo/Shutterstock)",
+    "url": "https://www.bing.com/th?id=OHR.KnowledgeSculpture_ZH-CN3168800853_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
     "page": "https://www.bing.com"
   }
 }

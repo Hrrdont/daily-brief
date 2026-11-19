@@ -2,49 +2,6 @@
   {
     "hot": [
       {
-        "title": "Wine 移植到 OpenBSD",
-        "url": "https://marc.info/?l=openbsd-ports&m=179236125692175",
-        "why": "在 OpenBSD 上跑 Windows 程序，折腾系统兼容层的人值得看"
-      },
-      {
-        "title": "OpenBSD 8.0 将采用 Linux 6.18 的显卡驱动",
-        "url": "https://bsd.network/@brynet/117407035545900963",
-        "why": "BSD 直接借用 Linux 显卡驱动，看清开源生态互相搭便车的现实"
-      },
-      {
-        "title": "MiniMax M3.1 Flash",
-        "url": "https://www.minimax.io/blog/minimax-m31f",
-        "why": "国产模型新版本发布，关注推理成本和实际能力变化的人可看"
-      }
-    ],
-    "growth": [
-      {
-        "title": "法国超市冷柜联网暴露数月",
-        "url": "https://ipinfo.io/blog/france-fridges-hack",
-        "why": "物联网设备默认不安全的具体案例，能学到真实攻击面在哪"
-      }
-    ],
-    "closing": "今天值得看的是开源系统互相借力，以及联网设备的真实安全代价。",
-    "date": "2026-10-20",
-    "generated_at": "2026-10-20T09:11:37+08:00",
-    "weather": {
-      "city": "嘉定区",
-      "region": "上海市, 中国",
-      "desc": "毛毛雨",
-      "tmax": 27,
-      "tmin": 21,
-      "rain": 73
-    },
-    "image": {
-      "title": "慢节奏生活",
-      "copyright": "褐喉三趾树懒，塔拉曼卡旧港，哥斯达黎加 (© Suzi Eszterhas/Minden Pictures)",
-      "url": "https://www.bing.com/th?id=OHR.BrownSloth_ZH-CN5776383136_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "page": "https://www.bing.com"
-    }
-  },
-  {
-    "hot": [
-      {
         "title": "DeepInfer：DeepSeek 模型的高性能推理框架",
         "url": "https://github.com/deepseek-ai/DeepInfer",
         "why": "官方开源推理框架，想自己跑 DeepSeek 模型的人能直接省下不少调优功夫。"
@@ -1419,6 +1376,54 @@
       "title": "从黄昏狩猎到黎明",
       "copyright": "一对仓鸮 (© Zahoor Salmi/Getty Images)",
       "url": "https://www.bing.com/th?id=OHR.BarnOwlsUnite_ZH-CN2930153291_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "page": "https://www.bing.com"
+    }
+  },
+  {
+    "hot": [
+      {
+        "title": "Nginx 曝未认证远程代码执行漏洞",
+        "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+        "why": "跑 Nginx 的人今天就得看，HTTP/2 未认证 RCE 不是小事"
+      },
+      {
+        "title": "Gemini 4 Neon 发布",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+        "why": "新旗舰模型上线，值得亲手跑几个任务判断真实水平"
+      },
+      {
+        "title": "Unreal Tournament 2004 搬进浏览器",
+        "url": "https://ut2004.dev/",
+        "why": "老游戏靠浏览器重生的工程活，折腾 Web 技术的人会喜欢"
+      }
+    ],
+    "growth": [
+      {
+        "title": "剑桥词典 2026 年度词是“人”",
+        "url": "https://www.solidot.org/story?sid=85927",
+        "why": "AI 模糊人机边界时，这个词帮你重新想清楚自己在做什么"
+      },
+      {
+        "title": "10 月音乐精选：必听这 7 张新专辑",
+        "url": "https://sspai.com/post/118985",
+        "why": "有具体专辑可听，比空谈审美更能练出耳朵的判断力"
+      }
+    ],
+    "closing": "今天先补 Nginx 的洞，再花一小时亲手验证新模型，别只看评测。",
+    "date": "2026-11-19",
+    "generated_at": "2026-11-19T11:46:59+08:00",
+    "weather": {
+      "city": "嘉定区",
+      "region": "上海市, 中国",
+      "desc": "阴",
+      "tmax": 12,
+      "tmin": 3,
+      "rain": 0
+    },
+    "image": {
+      "title": "思想在此成形",
+      "copyright": "雕塑《知识之躯》，由豪梅·普兰萨创作，位于德国法兰克福的法兰克福歌德大学 (© Todamo/Shutterstock)",
+      "url": "https://www.bing.com/th?id=OHR.KnowledgeSculpture_ZH-CN3168800853_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "page": "https://www.bing.com"
     }
   }
