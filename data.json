@@ -1,48 +1,48 @@
 {
   "hot": [
     {
-      "title": "Nginx 曝未认证远程代码执行漏洞",
-      "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
-      "why": "跑 Nginx 的人今天就得看，HTTP/2 未认证 RCE 不是小事"
+      "title": "Anthropic 在纳斯达克完成历史性上市",
+      "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+      "why": "AI 头部公司首次接受公开市场定价，是观察行业泡沫与真实需求的关键窗口。"
     },
     {
-      "title": "Gemini 4 Neon 发布",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
-      "why": "新旗舰模型上线，值得亲手跑几个任务判断真实水平"
+      "title": "OpenSSL 曝出 EVP_EncodeBlock 缓冲区溢出漏洞（CVE-2026-121481，CVSS 9.8）",
+      "url": "https://github.com/openssl/openssl/pull/33652",
+      "why": "Base64 编码路径上的高危漏洞，影响面极广，运维和开发都该立刻排查。"
     },
     {
-      "title": "Unreal Tournament 2004 搬进浏览器",
-      "url": "https://ut2004.dev/",
-      "why": "老游戏靠浏览器重生的工程活，折腾 Web 技术的人会喜欢"
+      "title": "胰腺癌在三名患者体内被病毒注射遏制",
+      "url": "https://www.newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients/",
+      "why": "样本极小但方向罕见：溶瘤病毒对“癌王”的早期临床信号值得跟踪。"
     }
   ],
   "growth": [
     {
-      "title": "剑桥词典 2026 年度词是“人”",
-      "url": "https://www.solidot.org/story?sid=85927",
-      "why": "AI 模糊人机边界时，这个词帮你重新想清楚自己在做什么"
+      "title": "Vint Cerf 谈 TCP/IP 为何从未申请专利",
+      "url": "https://seremot.com/p/vint-cerf-on-why-tcpip-was-never",
+      "why": "看互联网奠基人如何权衡开放与利益，对做技术决策有直接启发。"
     },
     {
-      "title": "10 月音乐精选：必听这 7 张新专辑",
-      "url": "https://sspai.com/post/118985",
-      "why": "有具体专辑可听，比空谈审美更能练出耳朵的判断力"
+      "title": "科技爱好者周刊（第 420 期）：最分心的一年",
+      "url": "http://www.ruanyifeng.com/blog/2026/11/weekly-issue-420.html",
+      "why": "用具体工具与现象讨论注意力被切碎，不是空喊自律口号。"
     }
   ],
-  "closing": "今天先补 Nginx 的洞，再花一小时亲手验证新模型，别只看评测。",
-  "date": "2026-11-19",
-  "generated_at": "2026-11-19T11:46:59+08:00",
+  "closing": "今天值得看的是 AI 上市定价、一个必须立刻打补丁的 OpenSSL 漏洞，以及两条关于开放与专注的老派智慧。",
+  "date": "2026-11-20",
+  "generated_at": "2026-11-20T11:40:46+08:00",
   "weather": {
     "city": "嘉定区",
     "region": "上海市, 中国",
-    "desc": "阴",
+    "desc": "大部晴",
     "tmax": 12,
     "tmin": 3,
     "rain": 0
   },
   "image": {
-    "title": "思想在此成形",
-    "copyright": "雕塑《知识之躯》，由豪梅·普兰萨创作，位于德国法兰克福的法兰克福歌德大学 (© Todamo/Shutterstock)",
-    "url": "https://www.bing.com/th?id=OHR.KnowledgeSculpture_ZH-CN3168800853_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "title": "在峡湾中大快朵颐",
+    "copyright": "正在潜水的座头鲸，挪威北部特罗姆斯的克瓦尔岛 (© Espen Bergersen/Minden Pictures)",
+    "url": "https://www.bing.com/th?id=OHR.Megaptera_ZH-CN3361807823_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
     "page": "https://www.bing.com"
   }
 }

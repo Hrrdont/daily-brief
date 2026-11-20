@@ -2,54 +2,6 @@
   {
     "hot": [
       {
-        "title": "DeepInfer：DeepSeek 模型的高性能推理框架",
-        "url": "https://github.com/deepseek-ai/DeepInfer",
-        "why": "官方开源推理框架，想自己跑 DeepSeek 模型的人能直接省下不少调优功夫。"
-      },
-      {
-        "title": "Voxtral 3",
-        "url": "https://mistral.ai/news/voxtral-3/",
-        "why": "Mistral 新一代语音模型，关注开源语音识别和 TTS 的人值得看一眼。"
-      },
-      {
-        "title": "SimCity，但要先申请许可",
-        "url": "https://permit.petercai.com/",
-        "why": "把城市规划做成审批流程的网页小游戏，程序员脑洞和交互设计都值得玩。"
-      }
-    ],
-    "growth": [
-      {
-        "title": "具透 Plus：Firefox 被「中途喝止」的界面现代化改造",
-        "url": "https://sspai.com/prime/story/inside-release-notes-261020",
-        "why": "看一个产品改版为何被叫停，比读十篇『设计原则』更能理解真实决策。"
-      },
-      {
-        "title": "Feds suspect ransom negotiator ran ShinyHunters extortion site",
-        "url": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
-        "why": "勒索谈判专家疑似就是勒索团伙，提醒你『中间人』这个角色有多容易变质。"
-      }
-    ],
-    "closing": "今天值得看的是官方推理框架和语音模型的新进展，外加一个关于信任与角色的真实案例。",
-    "date": "2026-10-21",
-    "generated_at": "2026-10-21T08:49:07+08:00",
-    "weather": {
-      "city": "嘉定区",
-      "region": "上海市, 中国",
-      "desc": "阵雨",
-      "tmax": 21,
-      "tmin": 14,
-      "rain": 100
-    },
-    "image": {
-      "title": "飞掠河面",
-      "copyright": "香江上的阮潢桥，顺化，越南 (© VU PHAM VAN/Getty Images)",
-      "url": "https://www.bing.com/th?id=OHR.VietnamBridge_ZH-CN6134321119_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "page": "https://www.bing.com"
-    }
-  },
-  {
-    "hot": [
-      {
         "title": "PHP 基金会发布安全版本并强化安全机制",
         "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
         "why": "PHP 生态安全治理的官方动作，跑 PHP 服务的人该看"
@@ -1424,6 +1376,54 @@
       "title": "思想在此成形",
       "copyright": "雕塑《知识之躯》，由豪梅·普兰萨创作，位于德国法兰克福的法兰克福歌德大学 (© Todamo/Shutterstock)",
       "url": "https://www.bing.com/th?id=OHR.KnowledgeSculpture_ZH-CN3168800853_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "page": "https://www.bing.com"
+    }
+  },
+  {
+    "hot": [
+      {
+        "title": "Anthropic 在纳斯达克完成历史性上市",
+        "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+        "why": "AI 头部公司首次接受公开市场定价，是观察行业泡沫与真实需求的关键窗口。"
+      },
+      {
+        "title": "OpenSSL 曝出 EVP_EncodeBlock 缓冲区溢出漏洞（CVE-2026-121481，CVSS 9.8）",
+        "url": "https://github.com/openssl/openssl/pull/33652",
+        "why": "Base64 编码路径上的高危漏洞，影响面极广，运维和开发都该立刻排查。"
+      },
+      {
+        "title": "胰腺癌在三名患者体内被病毒注射遏制",
+        "url": "https://www.newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients/",
+        "why": "样本极小但方向罕见：溶瘤病毒对“癌王”的早期临床信号值得跟踪。"
+      }
+    ],
+    "growth": [
+      {
+        "title": "Vint Cerf 谈 TCP/IP 为何从未申请专利",
+        "url": "https://seremot.com/p/vint-cerf-on-why-tcpip-was-never",
+        "why": "看互联网奠基人如何权衡开放与利益，对做技术决策有直接启发。"
+      },
+      {
+        "title": "科技爱好者周刊（第 420 期）：最分心的一年",
+        "url": "http://www.ruanyifeng.com/blog/2026/11/weekly-issue-420.html",
+        "why": "用具体工具与现象讨论注意力被切碎，不是空喊自律口号。"
+      }
+    ],
+    "closing": "今天值得看的是 AI 上市定价、一个必须立刻打补丁的 OpenSSL 漏洞，以及两条关于开放与专注的老派智慧。",
+    "date": "2026-11-20",
+    "generated_at": "2026-11-20T11:40:46+08:00",
+    "weather": {
+      "city": "嘉定区",
+      "region": "上海市, 中国",
+      "desc": "大部晴",
+      "tmax": 12,
+      "tmin": 3,
+      "rain": 0
+    },
+    "image": {
+      "title": "在峡湾中大快朵颐",
+      "copyright": "正在潜水的座头鲸，挪威北部特罗姆斯的克瓦尔岛 (© Espen Bergersen/Minden Pictures)",
+      "url": "https://www.bing.com/th?id=OHR.Megaptera_ZH-CN3361807823_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "page": "https://www.bing.com"
     }
   }
