@@ -2,54 +2,6 @@
   {
     "hot": [
       {
-        "title": "PHP 基金会发布安全版本并强化安全机制",
-        "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
-        "why": "PHP 生态安全治理的官方动作，跑 PHP 服务的人该看"
-      },
-      {
-        "title": "Railway 安全披露",
-        "url": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st",
-        "why": "托管平台的事故复盘，能学到真实的安全响应流程"
-      },
-      {
-        "title": "GitLab 关键补丁发布",
-        "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/",
-        "why": "自建 GitLab 的赶紧升级，关键补丁通常意味着可被利用"
-      }
-    ],
-    "growth": [
-      {
-        "title": "Vitals：比活动监视器更直观的 Mac 资源监控",
-        "url": "https://sspai.com/post/116445",
-        "why": "想优化 Mac 卡顿或本地跑 AI，先看清谁在吃资源"
-      },
-      {
-        "title": "中文已死：为什么我们越来越不敢好好说话？",
-        "url": "https://b23.tv/BV1Xdnc6jEbL",
-        "why": "反思自己的表达习惯，比读十条沟通鸡汤有用"
-      }
-    ],
-    "closing": "今天值得动手的是打补丁和看清自己机器的真实负载。",
-    "date": "2026-10-22",
-    "generated_at": "2026-10-22T08:50:44+08:00",
-    "weather": {
-      "city": "嘉定区",
-      "region": "上海市, 中国",
-      "desc": "阴",
-      "tmax": 21,
-      "tmin": 13,
-      "rain": 0
-    },
-    "image": {
-      "title": "静水映斑斓",
-      "copyright": "内藏山国立公园的秋景，韩国 (© Twenty47studio/Getty Images)",
-      "url": "https://www.bing.com/th?id=OHR.NaejangsanNP_ZH-CN6538893004_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "page": "https://www.bing.com"
-    }
-  },
-  {
-    "hot": [
-      {
         "title": "Quad9 宣布退出法国",
         "url": "https://quad9.net/news/blog/au-revoir-france/",
         "why": "公共 DNS 被监管逼走，直接影响你上网解析与隐私选择。"
@@ -1424,6 +1376,54 @@
       "title": "在峡湾中大快朵颐",
       "copyright": "正在潜水的座头鲸，挪威北部特罗姆斯的克瓦尔岛 (© Espen Bergersen/Minden Pictures)",
       "url": "https://www.bing.com/th?id=OHR.Megaptera_ZH-CN3361807823_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "page": "https://www.bing.com"
+    }
+  },
+  {
+    "hot": [
+      {
+        "title": "Levent Alpöge 宣称证明广义黎曼猜想",
+        "url": "https://alpo.ge/remark.pdf",
+        "why": "黎曼猜想级别的数学声明，先看原文再等同行评议，别急着信。"
+      },
+      {
+        "title": "Inkling 2 Mini 发布",
+        "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+        "why": "Thinking Machines 的新模型，关注小模型能力边界的人值得一看。"
+      },
+      {
+        "title": "NINLIVE：九寸钉现场演出档案库",
+        "url": "https://ninlive.com/",
+        "why": "乐队现场录音的系统化归档，做音乐收藏或档案整理可借鉴。"
+      }
+    ],
+    "growth": [
+      {
+        "title": "我们把开发者提拔成架构师，却没告诉他们",
+        "url": "https://manidoraisamy.com/developer-to-architect.html",
+        "why": "讲清角色转换中被忽略的能力缺口，带团队的人能对照自查。"
+      },
+      {
+        "title": "科技爱好者周刊第419期：机房来了，写字楼走了",
+        "url": "http://www.ruanyifeng.com/blog/2026/11/weekly-issue-419.html",
+        "why": "从机房与写字楼的迁移看产业变化，信息密度高、可延伸阅读。"
+      }
+    ],
+    "closing": "今天值得花时间的是那条数学声明和那篇架构师文章，其余按兴趣取舍。",
+    "date": "2026-11-21",
+    "generated_at": "2026-11-21T11:24:01+08:00",
+    "weather": {
+      "city": "嘉定区",
+      "region": "上海市, 中国",
+      "desc": "晴",
+      "tmax": 14,
+      "tmin": 3,
+      "rain": 0
+    },
+    "image": {
+      "title": "陶瓦屋顶下的梦",
+      "copyright": "法国普罗旺斯-阿尔卑斯-蔚蓝海岸大区尼斯 (© Siripong Kaewla-iad/Getty Images)",
+      "url": "https://www.bing.com/th?id=OHR.RedNice_ZH-CN3518429866_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "page": "https://www.bing.com"
     }
   }

@@ -1,48 +1,48 @@
 {
   "hot": [
     {
-      "title": "Anthropic 在纳斯达克完成历史性上市",
-      "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
-      "why": "AI 头部公司首次接受公开市场定价，是观察行业泡沫与真实需求的关键窗口。"
+      "title": "Levent Alpöge 宣称证明广义黎曼猜想",
+      "url": "https://alpo.ge/remark.pdf",
+      "why": "黎曼猜想级别的数学声明，先看原文再等同行评议，别急着信。"
     },
     {
-      "title": "OpenSSL 曝出 EVP_EncodeBlock 缓冲区溢出漏洞（CVE-2026-121481，CVSS 9.8）",
-      "url": "https://github.com/openssl/openssl/pull/33652",
-      "why": "Base64 编码路径上的高危漏洞，影响面极广，运维和开发都该立刻排查。"
+      "title": "Inkling 2 Mini 发布",
+      "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+      "why": "Thinking Machines 的新模型，关注小模型能力边界的人值得一看。"
     },
     {
-      "title": "胰腺癌在三名患者体内被病毒注射遏制",
-      "url": "https://www.newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients/",
-      "why": "样本极小但方向罕见：溶瘤病毒对“癌王”的早期临床信号值得跟踪。"
+      "title": "NINLIVE：九寸钉现场演出档案库",
+      "url": "https://ninlive.com/",
+      "why": "乐队现场录音的系统化归档，做音乐收藏或档案整理可借鉴。"
     }
   ],
   "growth": [
     {
-      "title": "Vint Cerf 谈 TCP/IP 为何从未申请专利",
-      "url": "https://seremot.com/p/vint-cerf-on-why-tcpip-was-never",
-      "why": "看互联网奠基人如何权衡开放与利益，对做技术决策有直接启发。"
+      "title": "我们把开发者提拔成架构师，却没告诉他们",
+      "url": "https://manidoraisamy.com/developer-to-architect.html",
+      "why": "讲清角色转换中被忽略的能力缺口，带团队的人能对照自查。"
     },
     {
-      "title": "科技爱好者周刊（第 420 期）：最分心的一年",
-      "url": "http://www.ruanyifeng.com/blog/2026/11/weekly-issue-420.html",
-      "why": "用具体工具与现象讨论注意力被切碎，不是空喊自律口号。"
+      "title": "科技爱好者周刊第419期：机房来了，写字楼走了",
+      "url": "http://www.ruanyifeng.com/blog/2026/11/weekly-issue-419.html",
+      "why": "从机房与写字楼的迁移看产业变化，信息密度高、可延伸阅读。"
     }
   ],
-  "closing": "今天值得看的是 AI 上市定价、一个必须立刻打补丁的 OpenSSL 漏洞，以及两条关于开放与专注的老派智慧。",
-  "date": "2026-11-20",
-  "generated_at": "2026-11-20T11:40:46+08:00",
+  "closing": "今天值得花时间的是那条数学声明和那篇架构师文章，其余按兴趣取舍。",
+  "date": "2026-11-21",
+  "generated_at": "2026-11-21T11:24:01+08:00",
   "weather": {
     "city": "嘉定区",
     "region": "上海市, 中国",
-    "desc": "大部晴",
-    "tmax": 12,
+    "desc": "晴",
+    "tmax": 14,
     "tmin": 3,
     "rain": 0
   },
   "image": {
-    "title": "在峡湾中大快朵颐",
-    "copyright": "正在潜水的座头鲸，挪威北部特罗姆斯的克瓦尔岛 (© Espen Bergersen/Minden Pictures)",
-    "url": "https://www.bing.com/th?id=OHR.Megaptera_ZH-CN3361807823_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "title": "陶瓦屋顶下的梦",
+    "copyright": "法国普罗旺斯-阿尔卑斯-蔚蓝海岸大区尼斯 (© Siripong Kaewla-iad/Getty Images)",
+    "url": "https://www.bing.com/th?id=OHR.RedNice_ZH-CN3518429866_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
     "page": "https://www.bing.com"
   }
 }
