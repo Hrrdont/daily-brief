@@ -2,54 +2,6 @@
   {
     "hot": [
       {
-        "title": "Quad9 宣布退出法国",
-        "url": "https://quad9.net/news/blog/au-revoir-france/",
-        "why": "公共 DNS 被监管逼走，直接影响你上网解析与隐私选择。"
-      },
-      {
-        "title": "LLM 让形式化软件验证真正可规模化",
-        "url": "https://www.anthropic.com/research/formal-verification",
-        "why": "AI 不只写代码，开始帮你证明代码没错，方向值得盯。"
-      },
-      {
-        "title": "NVIDIA 开源 OpenShell：给 AI 智能体用的安全运行时",
-        "url": "https://github.com/NVIDIA/OpenShell",
-        "why": "想让智能体跑自动化又怕它乱来，这类沙箱是刚需。"
-      }
-    ],
-    "growth": [
-      {
-        "title": "把 Muse 装进 ESP-Mosaico：Vibe Coding 在硬件领域也在快速成长",
-        "url": "https://sspai.com/post/115437",
-        "why": "一个具体可复现的折腾记录，看 AI 写代码怎么落到真板子上。"
-      },
-      {
-        "title": "科技爱好者周刊 416 期：编程已经面目全非",
-        "url": "http://www.ruanyifeng.com/blog/2026/10/weekly-issue-416.html",
-        "why": "阮一峰这期主题直指编程范式变化，适合花十分钟校准认知。"
-      }
-    ],
-    "closing": "今天值得看的是监管与 AI 基础设施的碰撞，以及一个能动手复现的硬件折腾。",
-    "date": "2026-10-23",
-    "generated_at": "2026-10-23T08:51:58+08:00",
-    "weather": {
-      "city": "嘉定区",
-      "region": "上海市, 中国",
-      "desc": "强阵雨",
-      "tmax": 23,
-      "tmin": 16,
-      "rain": 100
-    },
-    "image": {
-      "title": "荒野伙伴",
-      "copyright": "两只灰狼，黄石国家公园，怀俄明州，美国 (© John Morrison/Getty Images)",
-      "url": "https://www.bing.com/th?id=OHR.YellowstoneWolves_ZH-CN6767268961_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "page": "https://www.bing.com"
-    }
-  },
-  {
-    "hot": [
-      {
         "title": "Kimi K3.1 Pro 与 K3.1 Pro Highspeed 发布",
         "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
         "why": "国产大模型新版本，看它和 DeepSeek 路线有何不同"
@@ -1424,6 +1376,54 @@
       "title": "陶瓦屋顶下的梦",
       "copyright": "法国普罗旺斯-阿尔卑斯-蔚蓝海岸大区尼斯 (© Siripong Kaewla-iad/Getty Images)",
       "url": "https://www.bing.com/th?id=OHR.RedNice_ZH-CN3518429866_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "page": "https://www.bing.com"
+    }
+  },
+  {
+    "hot": [
+      {
+        "title": "Lean 形式化验证黎曼猜想",
+        "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+        "why": "数学与形式化证明的交叉点，看机器如何啃下最难猜想。"
+      },
+      {
+        "title": "一粒药治胰腺癌，被称为数十年来最大突破",
+        "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
+        "why": "胰腺癌几乎无解，口服靶向药若成立，意义远超一般新药。"
+      },
+      {
+        "title": "PcapAnalyzer：自托管的抓包分析器，内置 27 种问题检测",
+        "url": "https://github.com/sebaandrada-cell/PcapAnalyzer",
+        "why": "网络排障常靠肉眼翻包，这个能自动标出问题，值得折腾。"
+      }
+    ],
+    "growth": [
+      {
+        "title": "这群在鸿蒙写应用的年轻人，只想做点「用得上」的",
+        "url": "https://sspai.com/post/119291",
+        "why": "看真实学生项目如何从比赛走到可用，比空谈学习路径实在。"
+      },
+      {
+        "title": "从深圳到上海，少数派的共创故事还在继续",
+        "url": "https://sspai.com/post/119318",
+        "why": "内容创作者如何跨城协作落地，有具体做法可借鉴。"
+      }
+    ],
+    "closing": "今天值得看的是数学被机器验证、医学的硬突破，以及能立刻上手的工具和真实项目经验。",
+    "date": "2026-11-22",
+    "generated_at": "2026-11-22T10:34:24+08:00",
+    "weather": {
+      "city": "嘉定区",
+      "region": "上海市, 中国",
+      "desc": "阴",
+      "tmax": 16,
+      "tmin": 5,
+      "rain": 0
+    },
+    "image": {
+      "title": "海浪间的庇护所",
+      "copyright": "西班牙坎塔布里亚自治区的圣胡斯塔隐修院与小教堂 (© Tramont_ana/Getty Images)",
+      "url": "https://www.bing.com/th?id=OHR.JustaHermitage_ZH-CN3751022621_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "page": "https://www.bing.com"
     }
   }
