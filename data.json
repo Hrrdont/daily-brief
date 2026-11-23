@@ -1,48 +1,48 @@
 {
   "hot": [
     {
-      "title": "Lean 形式化验证黎曼猜想",
-      "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
-      "why": "数学与形式化证明的交叉点，看机器如何啃下最难猜想。"
+      "title": "本地 AI 入门：用 Inkling、Qwen 和 Unsloth 跑起来",
+      "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+      "why": "想在自己机器上跑模型，这篇给了具体工具链和上手路径，不用先啃论文。"
     },
     {
-      "title": "一粒药治胰腺癌，被称为数十年来最大突破",
-      "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
-      "why": "胰腺癌几乎无解，口服靶向药若成立，意义远超一般新药。"
+      "title": "用互联网档案馆被遗忘的视频搭一个免费替代电视网",
+      "url": "https://spelunkr.tv",
+      "why": "把公共档案变成能直接看的频道，是个很实在的『旧素材新用法』折腾样本。"
     },
     {
-      "title": "PcapAnalyzer：自托管的抓包分析器，内置 27 种问题检测",
-      "url": "https://github.com/sebaandrada-cell/PcapAnalyzer",
-      "why": "网络排障常靠肉眼翻包，这个能自动标出问题，值得折腾。"
+      "title": "英伟达被 SEC 调查，市值接近腰斩",
+      "url": "https://b23.tv/BV1iHy5z8EJv",
+      "why": "一天内最硬的产业信号，比追涨跌更有用的是看监管在盯什么。"
     }
   ],
   "growth": [
     {
-      "title": "这群在鸿蒙写应用的年轻人，只想做点「用得上」的",
-      "url": "https://sspai.com/post/119291",
-      "why": "看真实学生项目如何从比赛走到可用，比空谈学习路径实在。"
+      "title": "Masullo 谈黎曼猜想",
+      "url": "https://johncarlosbaez.wordpress.com/2026/11/22/masullo-on-the-riemann-hypothesis/",
+      "why": "跟着数学家拆解一个热门宣称，练的是『先看论证再看结论』的判断力。"
     },
     {
-      "title": "从深圳到上海，少数派的共创故事还在继续",
-      "url": "https://sspai.com/post/119318",
-      "why": "内容创作者如何跨城协作落地，有具体做法可借鉴。"
+      "title": "苏丹出土中世纪大教堂地面，规模罕见",
+      "url": "https://apnews.com/article/sudan-antiquities-nubia-cathedral-1b16f67da881ee5592de4481ee55c527",
+      "why": "考古现场的一手报道，提醒你很多『已知历史』其实还在被改写。"
     }
   ],
-  "closing": "今天值得看的是数学被机器验证、医学的硬突破，以及能立刻上手的工具和真实项目经验。",
-  "date": "2026-11-22",
-  "generated_at": "2026-11-22T10:34:24+08:00",
+  "closing": "今天挑的是能动手、能验证、能改认知的三类东西，别被热搜牵着走。",
+  "date": "2026-11-23",
+  "generated_at": "2026-11-23T11:01:26+08:00",
   "weather": {
     "city": "嘉定区",
     "region": "上海市, 中国",
     "desc": "阴",
     "tmax": 16,
-    "tmin": 5,
-    "rain": 0
+    "tmin": 12,
+    "rain": 2
   },
   "image": {
-    "title": "海浪间的庇护所",
-    "copyright": "西班牙坎塔布里亚自治区的圣胡斯塔隐修院与小教堂 (© Tramont_ana/Getty Images)",
-    "url": "https://www.bing.com/th?id=OHR.JustaHermitage_ZH-CN3751022621_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "title": "自然中的几何之美",
+    "copyright": "蕨类植物的卷曲嫩叶 (© Reza Saputra/Getty Images)",
+    "url": "https://www.bing.com/th?id=OHR.FibonacciFern_ZH-CN3882237848_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
     "page": "https://www.bing.com"
   }
 }
