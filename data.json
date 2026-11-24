@@ -1,48 +1,43 @@
 {
   "hot": [
     {
-      "title": "本地 AI 入门：用 Inkling、Qwen 和 Unsloth 跑起来",
-      "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
-      "why": "想在自己机器上跑模型，这篇给了具体工具链和上手路径，不用先啃论文。"
+      "title": "Ladybird 浏览器进入 alpha 阶段",
+      "url": "https://ladybird.org/posts/alpha/",
+      "why": "从零自研内核的独立浏览器首次可用，浏览器引擎格局的稀有变量。"
     },
     {
-      "title": "用互联网档案馆被遗忘的视频搭一个免费替代电视网",
-      "url": "https://spelunkr.tv",
-      "why": "把公共档案变成能直接看的频道，是个很实在的『旧素材新用法』折腾样本。"
+      "title": "Stalwart 成为 Microsoft Exchange 的即插即用替代品",
+      "url": "https://stalw.art/blog/microsoft-exchange-replacement/",
+      "why": "自托管邮件栈终于能平替 Exchange，折腾邮件服务器的人值得看。"
     },
     {
-      "title": "英伟达被 SEC 调查，市值接近腰斩",
-      "url": "https://b23.tv/BV1iHy5z8EJv",
-      "why": "一天内最硬的产业信号，比追涨跌更有用的是看监管在盯什么。"
+      "title": "iperf/iperf3 现代化改造，并推出 fireperf",
+      "url": "https://blog.daniel-baumann.ch/posts/20261122-1.html",
+      "why": "测网络带宽的老工具在重做，做网络调试的可以更新工具箱。"
     }
   ],
   "growth": [
     {
-      "title": "Masullo 谈黎曼猜想",
-      "url": "https://johncarlosbaez.wordpress.com/2026/11/22/masullo-on-the-riemann-hypothesis/",
-      "why": "跟着数学家拆解一个热门宣称，练的是『先看论证再看结论』的判断力。"
-    },
-    {
-      "title": "苏丹出土中世纪大教堂地面，规模罕见",
-      "url": "https://apnews.com/article/sudan-antiquities-nubia-cathedral-1b16f67da881ee5592de4481ee55c527",
-      "why": "考古现场的一手报道，提醒你很多『已知历史』其实还在被改写。"
+      "title": "写在动荡之后：漫步巴黎的寻常一日",
+      "url": "https://sspai.com/post/119412",
+      "why": "用一座城市的具体行走记录情绪恢复，不是鸡汤，是可模仿的方法。"
     }
   ],
-  "closing": "今天挑的是能动手、能验证、能改认知的三类东西，别被热搜牵着走。",
-  "date": "2026-11-23",
-  "generated_at": "2026-11-23T11:01:26+08:00",
+  "closing": "今天硬货集中在浏览器内核与自托管基础设施，成长类只挑到一篇能落地的。",
+  "date": "2026-11-24",
+  "generated_at": "2026-11-24T14:18:26+08:00",
   "weather": {
     "city": "嘉定区",
     "region": "上海市, 中国",
     "desc": "阴",
-    "tmax": 16,
-    "tmin": 12,
-    "rain": 2
+    "tmax": 12,
+    "tmin": 4,
+    "rain": 1
   },
   "image": {
-    "title": "自然中的几何之美",
-    "copyright": "蕨类植物的卷曲嫩叶 (© Reza Saputra/Getty Images)",
-    "url": "https://www.bing.com/th?id=OHR.FibonacciFern_ZH-CN3882237848_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "title": "秋日的保护色",
+    "copyright": "红松鼠，凯恩戈姆斯国家公园，苏格兰高地 (© Scotland: The Big Picture/Minden Pictures)",
+    "url": "https://www.bing.com/th?id=OHR.CairngormsSquirrel_ZH-CN0941302869_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
     "page": "https://www.bing.com"
   }
 }
