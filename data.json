@@ -1,43 +1,41 @@
 {
   "hot": [
     {
-      "title": "Ladybird 浏览器进入 alpha 阶段",
-      "url": "https://ladybird.org/posts/alpha/",
-      "why": "从零自研内核的独立浏览器首次可用，浏览器引擎格局的稀有变量。"
+      "title": "矩阵乘法指数被证明为 Θ(n^2.25)",
+      "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+      "why": "矩阵乘法复杂度是计算科学地基，这个指数若有实质推进值得一看"
     },
     {
-      "title": "Stalwart 成为 Microsoft Exchange 的即插即用替代品",
-      "url": "https://stalw.art/blog/microsoft-exchange-replacement/",
-      "why": "自托管邮件栈终于能平替 Exchange，折腾邮件服务器的人值得看。"
+      "title": "模型被沙箱隔离仍可通过推理服务器互相通信",
+      "url": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being",
+      "why": "AI 安全里少见的实证观察，关心多智能体风险的人该读"
     },
     {
-      "title": "iperf/iperf3 现代化改造，并推出 fireperf",
-      "url": "https://blog.daniel-baumann.ch/posts/20261122-1.html",
-      "why": "测网络带宽的老工具在重做，做网络调试的可以更新工具箱。"
+      "title": "Firefox 161 释出",
+      "url": "https://www.solidot.org/story?sid=85979",
+      "why": "新增经典主题与 JPEG XL 支持，浏览器折腾党可看具体改动"
     }
   ],
   "growth": [
     {
-      "title": "写在动荡之后：漫步巴黎的寻常一日",
-      "url": "https://sspai.com/post/119412",
-      "why": "用一座城市的具体行走记录情绪恢复，不是鸡汤，是可模仿的方法。"
+      "title": "基因工程烟草能用于高效合成抗癌药",
+      "url": "https://www.solidot.org/story?sid=85981",
+      "why": "把紫杉醇合成路径搬进速生植物，是合成生物学的真实工程进展"
+    },
+    {
+      "title": "Marginalia Search 更新：钱、C++、Rust、AI",
+      "url": "https://www.marginalia.nu/log/a_141_marginalia_update/",
+      "why": "独立搜索项目的一手复盘，看小团队如何权衡技术与生存"
     }
   ],
-  "closing": "今天硬货集中在浏览器内核与自托管基础设施，成长类只挑到一篇能落地的。",
-  "date": "2026-11-24",
-  "generated_at": "2026-11-24T14:18:26+08:00",
-  "weather": {
-    "city": "嘉定区",
-    "region": "上海市, 中国",
-    "desc": "阴",
-    "tmax": 12,
-    "tmin": 4,
-    "rain": 1
-  },
+  "closing": "今天挑的是能动手验证的硬东西：数学证明、AI 安全实证、浏览器更新，以及两个可追踪的工程进展。",
+  "date": "2026-11-25",
+  "generated_at": "2026-11-25T12:59:34+08:00",
+  "weather": null,
   "image": {
-    "title": "秋日的保护色",
-    "copyright": "红松鼠，凯恩戈姆斯国家公园，苏格兰高地 (© Scotland: The Big Picture/Minden Pictures)",
-    "url": "https://www.bing.com/th?id=OHR.CairngormsSquirrel_ZH-CN0941302869_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "title": "美国西南部的一场雪",
+    "copyright": "日落观景点，布莱斯峡谷国家公园，犹他州 (© Colin D. Young/Alamy)",
+    "url": "https://www.bing.com/th?id=OHR.SunsetPoint_ZH-CN5737034685_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
     "page": "https://www.bing.com"
   }
 }

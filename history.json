@@ -2,54 +2,6 @@
   {
     "hot": [
       {
-        "title": "在 Google 砍伐了上千英亩树后野狼来到芬兰的村庄",
-        "url": "https://www.solidot.org/story?sid=85706",
-        "why": "数据中心的环境代价具体到狼进村，比抽象碳排更有说服力。"
-      },
-      {
-        "title": "一种远古病毒可能阻碍黑猩猩演化出与人类相似的大脑",
-        "url": "https://www.solidot.org/story?sid=85702",
-        "why": "逆转录病毒参与脑演化的假说，把1.2%基因差异讲出了新变量。"
-      },
-      {
-        "title": "Overgrown, when plants invade your abandoned tabs",
-        "url": "https://charliegerard.dev/blog/overgrown-extension/",
-        "why": "把闲置标签页变成植物生长的浏览器扩展，小点子有完整实现。"
-      }
-    ],
-    "growth": [
-      {
-        "title": "撸狗有助于抵抗下一次压力",
-        "url": "https://www.solidot.org/story?sid=85703",
-        "why": "有实验设计分离身体接触变量，不是“宠物治愈一切”的空话。"
-      },
-      {
-        "title": "60 元打造你的 vibe coding 神器：小米蓝牙遥控器 2 pro",
-        "url": "https://sspai.com/post/114741",
-        "why": "低成本硬件改造可复现，适合想动手又不想烧钱的人。"
-      }
-    ],
-    "closing": "今天值得看的是环境代价的具体化、脑演化的新假说，以及两个能立刻动手的小实验。",
-    "date": "2026-10-26",
-    "generated_at": "2026-10-26T08:37:10+08:00",
-    "weather": {
-      "city": "嘉定区",
-      "region": "上海市, 中国",
-      "desc": "大部晴",
-      "tmax": 23,
-      "tmin": 15,
-      "rain": 0
-    },
-    "image": {
-      "title": "大自然的秋日乐章",
-      "copyright": "秋日瀑布，西托沃附近，普罗夫迪夫州，保加利亚 (© Nadya85/Getty Images)",
-      "url": "https://www.bing.com/th?id=OHR.SitovoWaterfall_ZH-CN8495214046_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "page": "https://www.bing.com"
-    }
-  },
-  {
-    "hot": [
-      {
         "title": "OpenAI 宣布数学、计算机科学与物理三项新发现",
         "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
         "why": "AI 直接产出基础学科成果，值得看它到底做了什么、能不能复现"
@@ -1419,6 +1371,47 @@
       "title": "秋日的保护色",
       "copyright": "红松鼠，凯恩戈姆斯国家公园，苏格兰高地 (© Scotland: The Big Picture/Minden Pictures)",
       "url": "https://www.bing.com/th?id=OHR.CairngormsSquirrel_ZH-CN0941302869_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "page": "https://www.bing.com"
+    }
+  },
+  {
+    "hot": [
+      {
+        "title": "矩阵乘法指数被证明为 Θ(n^2.25)",
+        "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+        "why": "矩阵乘法复杂度是计算科学地基，这个指数若有实质推进值得一看"
+      },
+      {
+        "title": "模型被沙箱隔离仍可通过推理服务器互相通信",
+        "url": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being",
+        "why": "AI 安全里少见的实证观察，关心多智能体风险的人该读"
+      },
+      {
+        "title": "Firefox 161 释出",
+        "url": "https://www.solidot.org/story?sid=85979",
+        "why": "新增经典主题与 JPEG XL 支持，浏览器折腾党可看具体改动"
+      }
+    ],
+    "growth": [
+      {
+        "title": "基因工程烟草能用于高效合成抗癌药",
+        "url": "https://www.solidot.org/story?sid=85981",
+        "why": "把紫杉醇合成路径搬进速生植物，是合成生物学的真实工程进展"
+      },
+      {
+        "title": "Marginalia Search 更新：钱、C++、Rust、AI",
+        "url": "https://www.marginalia.nu/log/a_141_marginalia_update/",
+        "why": "独立搜索项目的一手复盘，看小团队如何权衡技术与生存"
+      }
+    ],
+    "closing": "今天挑的是能动手验证的硬东西：数学证明、AI 安全实证、浏览器更新，以及两个可追踪的工程进展。",
+    "date": "2026-11-25",
+    "generated_at": "2026-11-25T12:59:34+08:00",
+    "weather": null,
+    "image": {
+      "title": "美国西南部的一场雪",
+      "copyright": "日落观景点，布莱斯峡谷国家公园，犹他州 (© Colin D. Young/Alamy)",
+      "url": "https://www.bing.com/th?id=OHR.SunsetPoint_ZH-CN5737034685_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "page": "https://www.bing.com"
     }
   }
