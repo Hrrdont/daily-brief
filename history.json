@@ -2,54 +2,6 @@
   {
     "hot": [
       {
-        "title": "OpenAI 宣布数学、计算机科学与物理三项新发现",
-        "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
-        "why": "AI 直接产出基础学科成果，值得看它到底做了什么、能不能复现"
-      },
-      {
-        "title": "《指数时间假设为假》预印本",
-        "url": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
-        "why": "若成立将动摇复杂度理论根基，先读原文再判断真假"
-      },
-      {
-        "title": "Sebastian Raschka 从零构建推理模型的视频课",
-        "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
-        "why": "手把手实现推理模型，比读论文更适合动手学"
-      }
-    ],
-    "growth": [
-      {
-        "title": "仍在 Windows 11 上运行的最古老 GUI 程序",
-        "url": "https://blog.enlyth.com/posts/oldest-windows-gui-app-win-11/",
-        "why": "一次可亲手验证的兼容性考古，看老代码如何活到今天"
-      },
-      {
-        "title": "为什么你的 DeepSeek 和别人不一样？实测揭秘",
-        "url": "https://b23.tv/BV1btH36uEru",
-        "why": "用实测拆解同一模型的输出差异，教你复现而非听结论"
-      }
-    ],
-    "closing": "今天值得花时间的是能自己跑一遍、验一遍的东西，而不是标题。",
-    "date": "2026-10-27",
-    "generated_at": "2026-10-27T09:35:44+08:00",
-    "weather": {
-      "city": "嘉定区",
-      "region": "上海市, 中国",
-      "desc": "小毛毛雨",
-      "tmax": 21,
-      "tmin": 13,
-      "rain": 2
-    },
-    "image": {
-      "title": "大自然的金色明镜",
-      "copyright": "秋叶缤纷的池杉林，乔治亚州，美国 (© Chris Moore/Getty Images)",
-      "url": "https://www.bing.com/th?id=OHR.PondCypress_ZH-CN9472607734_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "page": "https://www.bing.com"
-    }
-  },
-  {
-    "hot": [
-      {
         "title": "Genie 4：新一代世界模拟模型",
         "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
         "why": "世界模型又进一步，搞AI和做游戏的人都该看看它怎么生成可交互环境。"
@@ -1412,6 +1364,54 @@
       "title": "美国西南部的一场雪",
       "copyright": "日落观景点，布莱斯峡谷国家公园，犹他州 (© Colin D. Young/Alamy)",
       "url": "https://www.bing.com/th?id=OHR.SunsetPoint_ZH-CN5737034685_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "page": "https://www.bing.com"
+    }
+  },
+  {
+    "hot": [
+      {
+        "title": "1Password 安全事件",
+        "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
+        "why": "密码管理器出事直接关系你的账号安全，先看官方披露范围再决定要不要改密码。"
+      },
+      {
+        "title": "Scott Aaronson：正在发生的事，量级之大",
+        "url": "https://scottaaronson.blog/?p=10379",
+        "why": "量子计算圈内人的第一手判断，比二手转述的『突破』新闻靠谱得多。"
+      },
+      {
+        "title": "Anthropic 版 GRH Lean 验证的短版本",
+        "url": "https://github.com/lsernau/grh-lean",
+        "why": "想看形式化验证到底怎么落地，直接读代码比看争论有用。"
+      }
+    ],
+    "growth": [
+      {
+        "title": "科技爱好者周刊第 420 期：最分心的一年",
+        "url": "http://www.ruanyifeng.com/blog/2026/11/weekly-issue-420.html",
+        "why": "把『分心』当工程问题拆解，附可试的工具和方法，不是喊口号。"
+      },
+      {
+        "title": "我用 AI 做了一张两千年的中国历史地图",
+        "url": "https://sspai.com/post/117510",
+        "why": "完整展示 AI 辅助做历史数据可视化的流程，可照着复现一遍。"
+      }
+    ],
+    "closing": "今天值得看的是安全披露和可复现的实践，别被『突破』标题带走。",
+    "date": "2026-11-26",
+    "generated_at": "2026-11-26T12:18:05+08:00",
+    "weather": {
+      "city": "嘉定区",
+      "region": "上海市, 中国",
+      "desc": "阴",
+      "tmax": 18,
+      "tmin": 8,
+      "rain": 2
+    },
+    "image": {
+      "title": "彩虹落下的地方",
+      "copyright": "怀卢库河上的彩虹瀑布，希洛市，夏威夷州，美国 (© Peter Unger/Getty Images)",
+      "url": "https://www.bing.com/th?id=OHR.RFHilo_ZH-CN5962114314_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "page": "https://www.bing.com"
     }
   }

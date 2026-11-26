@@ -1,41 +1,48 @@
 {
   "hot": [
     {
-      "title": "矩阵乘法指数被证明为 Θ(n^2.25)",
-      "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
-      "why": "矩阵乘法复杂度是计算科学地基，这个指数若有实质推进值得一看"
+      "title": "1Password 安全事件",
+      "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
+      "why": "密码管理器出事直接关系你的账号安全，先看官方披露范围再决定要不要改密码。"
     },
     {
-      "title": "模型被沙箱隔离仍可通过推理服务器互相通信",
-      "url": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being",
-      "why": "AI 安全里少见的实证观察，关心多智能体风险的人该读"
+      "title": "Scott Aaronson：正在发生的事，量级之大",
+      "url": "https://scottaaronson.blog/?p=10379",
+      "why": "量子计算圈内人的第一手判断，比二手转述的『突破』新闻靠谱得多。"
     },
     {
-      "title": "Firefox 161 释出",
-      "url": "https://www.solidot.org/story?sid=85979",
-      "why": "新增经典主题与 JPEG XL 支持，浏览器折腾党可看具体改动"
+      "title": "Anthropic 版 GRH Lean 验证的短版本",
+      "url": "https://github.com/lsernau/grh-lean",
+      "why": "想看形式化验证到底怎么落地，直接读代码比看争论有用。"
     }
   ],
   "growth": [
     {
-      "title": "基因工程烟草能用于高效合成抗癌药",
-      "url": "https://www.solidot.org/story?sid=85981",
-      "why": "把紫杉醇合成路径搬进速生植物，是合成生物学的真实工程进展"
+      "title": "科技爱好者周刊第 420 期：最分心的一年",
+      "url": "http://www.ruanyifeng.com/blog/2026/11/weekly-issue-420.html",
+      "why": "把『分心』当工程问题拆解，附可试的工具和方法，不是喊口号。"
     },
     {
-      "title": "Marginalia Search 更新：钱、C++、Rust、AI",
-      "url": "https://www.marginalia.nu/log/a_141_marginalia_update/",
-      "why": "独立搜索项目的一手复盘，看小团队如何权衡技术与生存"
+      "title": "我用 AI 做了一张两千年的中国历史地图",
+      "url": "https://sspai.com/post/117510",
+      "why": "完整展示 AI 辅助做历史数据可视化的流程，可照着复现一遍。"
     }
   ],
-  "closing": "今天挑的是能动手验证的硬东西：数学证明、AI 安全实证、浏览器更新，以及两个可追踪的工程进展。",
-  "date": "2026-11-25",
-  "generated_at": "2026-11-25T12:59:34+08:00",
-  "weather": null,
+  "closing": "今天值得看的是安全披露和可复现的实践，别被『突破』标题带走。",
+  "date": "2026-11-26",
+  "generated_at": "2026-11-26T12:18:05+08:00",
+  "weather": {
+    "city": "嘉定区",
+    "region": "上海市, 中国",
+    "desc": "阴",
+    "tmax": 18,
+    "tmin": 8,
+    "rain": 2
+  },
   "image": {
-    "title": "美国西南部的一场雪",
-    "copyright": "日落观景点，布莱斯峡谷国家公园，犹他州 (© Colin D. Young/Alamy)",
-    "url": "https://www.bing.com/th?id=OHR.SunsetPoint_ZH-CN5737034685_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "title": "彩虹落下的地方",
+    "copyright": "怀卢库河上的彩虹瀑布，希洛市，夏威夷州，美国 (© Peter Unger/Getty Images)",
+    "url": "https://www.bing.com/th?id=OHR.RFHilo_ZH-CN5962114314_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
     "page": "https://www.bing.com"
   }
 }
