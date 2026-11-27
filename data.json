@@ -1,48 +1,41 @@
 {
   "hot": [
     {
-      "title": "1Password 安全事件",
-      "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
-      "why": "密码管理器出事直接关系你的账号安全，先看官方披露范围再决定要不要改密码。"
+      "title": "AI made self-hosting fun again",
+      "url": "https://janlukas.blog/posts/ai-self-hosting",
+      "why": "讲AI怎么把自托管重新变得好玩，折腾家用服务器的人会有共鸣。"
     },
     {
-      "title": "Scott Aaronson：正在发生的事，量级之大",
-      "url": "https://scottaaronson.blog/?p=10379",
-      "why": "量子计算圈内人的第一手判断，比二手转述的『突破』新闻靠谱得多。"
+      "title": "Hard Drive pricing has gotten bad",
+      "url": "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/",
+      "why": "硬盘价格异常的具体分析，想扩容NAS或攒机前值得先看一眼。"
     },
     {
-      "title": "Anthropic 版 GRH Lean 验证的短版本",
-      "url": "https://github.com/lsernau/grh-lean",
-      "why": "想看形式化验证到底怎么落地，直接读代码比看争论有用。"
+      "title": "App+1｜Agora：开源、易用、好用，给 Android 用户的 LLM 聊天工具",
+      "url": "https://sspai.com/post/116773",
+      "why": "开源安卓LLM客户端，自己接API用大模型的人可以试。"
     }
   ],
   "growth": [
     {
-      "title": "科技爱好者周刊第 420 期：最分心的一年",
-      "url": "http://www.ruanyifeng.com/blog/2026/11/weekly-issue-420.html",
-      "why": "把『分心』当工程问题拆解，附可试的工具和方法，不是喊口号。"
+      "title": "Kamil Khan Mumtaz: Pakistani architect, admired at home, almost invisible abroad",
+      "url": "https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/",
+      "why": "看一个被国际忽视的建筑师如何在本土做出真东西，关于评价体系。"
     },
     {
-      "title": "我用 AI 做了一张两千年的中国历史地图",
-      "url": "https://sspai.com/post/117510",
-      "why": "完整展示 AI 辅助做历史数据可视化的流程，可照着复现一遍。"
+      "title": "科技爱好者周刊（第 421 期）：AI 的疯狂造富",
+      "url": "http://www.ruanyifeng.com/blog/2026/11/weekly-issue-421.html",
+      "why": "阮一峰这期聚焦AI造富，帮你判断热潮里哪些是真价值。"
     }
   ],
-  "closing": "今天值得看的是安全披露和可复现的实践，别被『突破』标题带走。",
-  "date": "2026-11-26",
-  "generated_at": "2026-11-26T12:18:05+08:00",
-  "weather": {
-    "city": "嘉定区",
-    "region": "上海市, 中国",
-    "desc": "阴",
-    "tmax": 18,
-    "tmin": 8,
-    "rain": 2
-  },
+  "closing": "今天挑的是能动手、能想事的东西，少而实。",
+  "date": "2026-11-27",
+  "generated_at": "2026-11-27T12:27:34+08:00",
+  "weather": null,
   "image": {
-    "title": "彩虹落下的地方",
-    "copyright": "怀卢库河上的彩虹瀑布，希洛市，夏威夷州，美国 (© Peter Unger/Getty Images)",
-    "url": "https://www.bing.com/th?id=OHR.RFHilo_ZH-CN5962114314_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "title": "灰金交织的峡谷",
+    "copyright": "夕阳下的孤峰，鲍威尔湖脸峡谷，犹他州，美国 (© Jeff Foott/Minden)",
+    "url": "https://www.bing.com/th?id=OHR.FaceCanyon_ZH-CN9505064248_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
     "page": "https://www.bing.com"
   }
 }
