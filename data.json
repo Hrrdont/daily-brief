@@ -1,41 +1,48 @@
 {
   "hot": [
     {
-      "title": "AI made self-hosting fun again",
-      "url": "https://janlukas.blog/posts/ai-self-hosting",
-      "why": "讲AI怎么把自托管重新变得好玩，折腾家用服务器的人会有共鸣。"
+      "title": "我把Steam复刻搬进了B站游玩Toy【点击即玩】ToyToy【B站AI创造公开赛】",
+      "url": "https://b23.tv/BV119yCzcEBd",
+      "why": "MARK__33 · 107 万播放，命中你在意的技术/知识方向"
     },
     {
-      "title": "Hard Drive pricing has gotten bad",
-      "url": "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/",
-      "why": "硬盘价格异常的具体分析，想扩容NAS或攒机前值得先看一眼。"
+      "title": "大肥鱼害得全校都知道我爸的名字了！【人和肥鱼06】【AI演绎小剧场】",
+      "url": "https://b23.tv/BV1f414zBEJ5",
+      "why": "双叶吸咖喱 · 71 万播放，命中你在意的技术/知识方向"
     },
     {
-      "title": "App+1｜Agora：开源、易用、好用，给 Android 用户的 LLM 聊天工具",
-      "url": "https://sspai.com/post/116773",
-      "why": "开源安卓LLM客户端，自己接API用大模型的人可以试。"
+      "title": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
+      "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
+      "why": "Hacker News 196 分 · research.google"
+    },
+    {
+      "title": "GPT 6.2 Astra Solves a Historical Mystery",
+      "url": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical",
+      "why": "Hacker News 368 分 · generativehistory.substack.com"
     }
   ],
   "growth": [
     {
-      "title": "Kamil Khan Mumtaz: Pakistani architect, admired at home, almost invisible abroad",
-      "url": "https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/",
-      "why": "看一个被国际忽视的建筑师如何在本土做出真东西，关于评价体系。"
-    },
-    {
-      "title": "科技爱好者周刊（第 421 期）：AI 的疯狂造富",
-      "url": "http://www.ruanyifeng.com/blog/2026/11/weekly-issue-421.html",
-      "why": "阮一峰这期聚焦AI造富，帮你判断热潮里哪些是真价值。"
+      "title": "本月玩什么｜GTA VI、塞尔达传说 时之笛、魔兽世界：无限",
+      "url": "https://sspai.com/post/119686",
+      "why": "少数派：具体可操作的效率/生活议题"
     }
   ],
-  "closing": "今天挑的是能动手、能想事的东西，少而实。",
-  "date": "2026-11-27",
-  "generated_at": "2026-11-27T12:27:34+08:00",
-  "weather": null,
+  "closing": "今天只看一条的话：我把Steam复刻搬进了B站游玩Toy【点击即玩】ToyToy【B站AI创造公开赛】",
+  "date": "2026-11-28",
+  "generated_at": "2026-11-28T12:09:35+08:00",
+  "weather": {
+    "city": "嘉定区",
+    "region": "上海市, 中国",
+    "desc": "阴",
+    "tmax": 14,
+    "tmin": 6,
+    "rain": 0
+  },
   "image": {
-    "title": "灰金交织的峡谷",
-    "copyright": "夕阳下的孤峰，鲍威尔湖脸峡谷，犹他州，美国 (© Jeff Foott/Minden)",
-    "url": "https://www.bing.com/th?id=OHR.FaceCanyon_ZH-CN9505064248_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "title": "跨越时光的桥梁",
+    "copyright": "捷克布拉格老城区与伏尔塔瓦河 (© Lara_Uhryn/Getty Images)",
+    "url": "https://www.bing.com/th?id=OHR.VltavaPrague_ZH-CN9898139716_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
     "page": "https://www.bing.com"
   }
 }

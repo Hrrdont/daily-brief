@@ -2,54 +2,6 @@
   {
     "hot": [
       {
-        "title": "Qwenputer：在 Qwen3.5 模型里跑出一个可运行的确定性 RISC-V CPU",
-        "url": "https://divagr.com/blog/qwenputer",
-        "why": "LLM 里塞进能跑指令的 CPU，是理解模型内部计算的新奇实验。"
-      },
-      {
-        "title": "一个指纹识别脚本怎么被用来造生物武器？",
-        "url": "https://nullpt.rs/fingerprinting-bioweapons",
-        "why": "858 分热帖，讲清浏览器指纹代码被滥用的荒诞链条，安全视角很实用。"
-      },
-      {
-        "title": "科技爱好者周刊 416 期：编程已经面目全非",
-        "url": "http://www.ruanyifeng.com/blog/2026/10/weekly-issue-416.html",
-        "why": "阮一峰这期主题直指 AI 改写编程方式，适合一次读完校准方向。"
-      }
-    ],
-    "growth": [
-      {
-        "title": "MicroZig 采用严格「无 LLM / 无 AI」贡献政策",
-        "url": "https://github.com/ZigEmbeddedGroup/microzig/blob/main/CODE_OF_CONDUCT.md",
-        "why": "开源项目如何划定 AI 使用边界，是能直接照搬的治理样本。"
-      },
-      {
-        "title": "A Health Update",
-        "url": "https://furbo.org/2026/10/28/a-health-update/",
-        "why": "开发者公开健康近况，提醒长期写代码的人正视身体这个真实约束。"
-      }
-    ],
-    "closing": "今天值得看的是模型内部实验、安全链条和开源治理，成长类只留可验证的两条。",
-    "date": "2026-10-29",
-    "generated_at": "2026-10-29T09:55:28+08:00",
-    "weather": {
-      "city": "嘉定区",
-      "region": "上海市, 中国",
-      "desc": "毛毛雨",
-      "tmax": 23,
-      "tmin": 14,
-      "rain": 69
-    },
-    "image": {
-      "title": "薄雾邂逅千年时光",
-      "copyright": "立石，埃夫伯里，威尔特郡，英格兰 (© George W Johnson/Getty Images)",
-      "url": "https://www.bing.com/th?id=OHR.AveburyStones_ZH-CN9127100951_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-      "page": "https://www.bing.com"
-    }
-  },
-  {
-    "hot": [
-      {
         "title": "Mistral 开源 Mistral Large 4 权重",
         "url": "https://mistral.ai/news/mistral-large-4-oss/",
         "why": "又一个大模型把权重放出来了，值得看开源模型和闭源模型的差距还剩多少。"
@@ -1405,6 +1357,54 @@
       "title": "灰金交织的峡谷",
       "copyright": "夕阳下的孤峰，鲍威尔湖脸峡谷，犹他州，美国 (© Jeff Foott/Minden)",
       "url": "https://www.bing.com/th?id=OHR.FaceCanyon_ZH-CN9505064248_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+      "page": "https://www.bing.com"
+    }
+  },
+  {
+    "hot": [
+      {
+        "title": "我把Steam复刻搬进了B站游玩Toy【点击即玩】ToyToy【B站AI创造公开赛】",
+        "url": "https://b23.tv/BV119yCzcEBd",
+        "why": "MARK__33 · 107 万播放，命中你在意的技术/知识方向"
+      },
+      {
+        "title": "大肥鱼害得全校都知道我爸的名字了！【人和肥鱼06】【AI演绎小剧场】",
+        "url": "https://b23.tv/BV1f414zBEJ5",
+        "why": "双叶吸咖喱 · 71 万播放，命中你在意的技术/知识方向"
+      },
+      {
+        "title": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
+        "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
+        "why": "Hacker News 196 分 · research.google"
+      },
+      {
+        "title": "GPT 6.2 Astra Solves a Historical Mystery",
+        "url": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical",
+        "why": "Hacker News 368 分 · generativehistory.substack.com"
+      }
+    ],
+    "growth": [
+      {
+        "title": "本月玩什么｜GTA VI、塞尔达传说 时之笛、魔兽世界：无限",
+        "url": "https://sspai.com/post/119686",
+        "why": "少数派：具体可操作的效率/生活议题"
+      }
+    ],
+    "closing": "今天只看一条的话：我把Steam复刻搬进了B站游玩Toy【点击即玩】ToyToy【B站AI创造公开赛】",
+    "date": "2026-11-28",
+    "generated_at": "2026-11-28T12:09:35+08:00",
+    "weather": {
+      "city": "嘉定区",
+      "region": "上海市, 中国",
+      "desc": "阴",
+      "tmax": 14,
+      "tmin": 6,
+      "rain": 0
+    },
+    "image": {
+      "title": "跨越时光的桥梁",
+      "copyright": "捷克布拉格老城区与伏尔塔瓦河 (© Lara_Uhryn/Getty Images)",
+      "url": "https://www.bing.com/th?id=OHR.VltavaPrague_ZH-CN9898139716_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
       "page": "https://www.bing.com"
     }
   }
